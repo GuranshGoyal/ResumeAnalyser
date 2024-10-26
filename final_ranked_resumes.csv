@@ -1,0 +1,2 @@
+ID,ID,Years_of_Experience,Education_Level,Spell_Check_Ratio,Section_Score,Brevity_Score,Skill_Count,Technical_Score,Managerial_Score,Overall_Score,Extracted_Skills
+1,1,10,Master,0.9626769626769627,0.9,0.5575,4,0.7,0.24441307556080283,0.5953416189359371,"['communication', 'customer service', 'decision making', 'initiative']"

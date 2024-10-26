@@ -1,3 +1,9 @@
 pymupdf
 pathlib
-
+pandas
+spacy
+language_tool_python
+datetime
+numpy
+scikit-learn
+textblob

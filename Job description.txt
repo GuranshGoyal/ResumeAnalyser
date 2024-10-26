@@ -1,0 +1,44 @@
+Machine Learning Engineering
+13585ABC
+Knowledge and Innovation
+What you’ll do
+You will focus on researching, building, and designing self-running artificial intelligence (AI)
+systems to automate predictive models. You are responsible to design and create the AI
+algorithms capable of learning and making predictions that define machine learning (ML).
+Experience and qualifications
+●
+Bachelor's or Master's degree (mention the course as per requirement)
+●
+0-2 years of work experience providing analytics solutions in a commercial setting
+Technical expertise
+Must have
+●
+Machine Learning, Clustering, Logistic Regression, Classification
+●
+Different libraries such as SciKit Learn, NumPy, Pandas, Matplotlib, Seaborn
+●
+Deep learning frameworks such as Tensorflow, Keras, PyTorch and application of Neural
+Networks and models. CNN, RNN, GANs
+●
+Familiar with Natural Language Processing and associated libraries like NLTK, SpaCy,
+Beautiful Soup
+●
+PySpark, Hadoop, and Big Data Pipelines
+●
+Data science methodology from exploratory data analysis, feature engineering, model
+selection, deployment of the model at scale, and model evaluation
+●
+Deploying NLP architectures and Computer Vision Models in production
+Considered as a plus
+●
+Transformers and other advance techniques in NLP
+●
+Familiar with Computer Vision models and object detection, OCR, OpenCV
+●
+Analytical Tools as it will reduce any medium for data transfers
+●
+Web frameworks like Django and databases like MongoDB, NoSQL, GraphQL
+●
+SQL, Firebase, AWS, Azure, Google Cloud Platform
+Your job type
+Full time
