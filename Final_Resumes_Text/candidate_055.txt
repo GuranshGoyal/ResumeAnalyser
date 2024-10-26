@@ -1,0 +1,22 @@
+HS Institute
+TRAINEE, MAY 2019-OCT 2019 
+Created data pipelines for pre-trained models in order
+to make them learn from new data and coalesce with
+our demands.
+B.Tech(Computer Science), 2020, Punjab Technical
+University.
+WORK EXPERIENCE
+EDUCATION
+CAMILLA BROWN
+GRADUATE FRESHER
+I am a graduate software developer who has a good understanding of Text analysis and Image Processing. Also trained in
+creating data pipelines and deplyoing them on cloud platforms like AWS and Azure. 
+Machine Learning, Software Development, Text Analysis, Natural Language Processing, Image Processing, Python, Data
+Management, Scikit Learn, C, C#, .NET, SQL.
+ABOUT
+SKILLS
+Separating passengers based on distance
+using k-means.
+Data Science with Scikit-Learn. 
+PROJECT
+OTHER QUALIFICATION

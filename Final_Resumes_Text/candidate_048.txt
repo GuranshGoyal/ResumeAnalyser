@@ -1,0 +1,23 @@
+Absolutdata Research & Analytics 
+Machine Learning Intern, Jan 2020 to Till Date 
+Implemented a research paper by Shang Huan on
+EMD algorithm for time series forecasting by creating
+a hybrid model using Empirical Mode Decomposition
+and Long Short Term Memory Neural Networks. 
+B.Tech(Computers) from Inderprastha Engineering
+College Ghaziabad in 2020 
+WORK EXPERIENCE
+EDUCATION
+BRYCE WALKER
+FRESHER MACHINE LEARNING ENGINEER
+As a recent graduate, I am looking for roles that challenge me and feed my craving for learning. I can easily adapt to new
+technologies, understand and work with a variety of people, and always looking to solving business problems in much
+more technology sophisticated ways.
+Machine Learning, Deep learning, Logistic Regression, k-means clustering, LSTM, Emperical Modelling.
+ABOUT
+SKILLS
+Handwriting detection in real-time.
+To cluster Quality of vegetables based on
+size, color and produce time.
+PROJECT
+OTHER QUALIFICATION

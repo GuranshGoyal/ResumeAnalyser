@@ -1,0 +1,31 @@
+P R O F I L E
+Software developer working as a cloud risk management solutions specialist. I
+have worked on multiple languages and I am quite familiar with a lot of cloud-
+based software deployment.
+AXIS BANK LIMITED 
+SOFTWARE DEVELOPER(MACHINE LEARNING ENGINEER) JUN 2018
+TO TILL DATE
+Leveraging Unified Payment Interface (UPI) transaction data to
+predict the risk involved in offering NTB (New-To-Bank) and KTB
+(Known-To-Bank) customers pre-approved loans and credit cards.
+Created risk-model's feature extraction process-flow architecture by
+utilizing Big Data technologies like Spark/PySpark to ingest and
+process transaction data.
+SEAN CAMPBELL
+S K I L L S
+Software Development, Machine
+Learning, Deep Learning, Risk
+Assessment, Requirement
+Gathering, Application Support,
+JavaScript, Python, Docker, HTML,
+Hive, CSS, C, C++.
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH(ELECTRONICS/TELECOMMUNICATION) FROM BIRLA
+INSTITUTE OF TECHNOLOGY (BIT), RANCHI IN 2018
+S O F T W A R E  D E V E L O P E R  ( M A C H I N E  L E A R N I N G )
+P R O J E C T S
+Created model monitoring
+metrics like CSI and PSI to assess
+the performance of the deployed
+model.

@@ -1,0 +1,22 @@
+Aya Baker
+G R A D U A T E  S D E  A N D  B U S I N E S S  A N A L Y S T
+Executive Profile
+Looking for roles related to application
+development in Machine Learning.
+Other Activities
+Certificate on Data Analysis.
+Projects
+Generating reports from a library of
+records about patient data.
+Skills
+Business Analyst, Data Analytics, Data
+Cleansing, Business Analysis, Risk Analysis,
+Statistical Analysis, Deep Learning,
+Machine Learning, Python, Numpy.
+Work Experience
+ZigSAW 
+SDE and business Analyst trainee, Apr 2019 - Dec 2020 
+Working under a team of data scientist to develop machine learning
+prediction models. 
+Education
+B.BA PGG College Mysore, 2019

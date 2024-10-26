@@ -1,0 +1,31 @@
+P R O F I L E
+A data science professional with 1 years of demonstrated work experience in
+building and deploying end-to-end analytical solutions in the Energy &
+Resources domain. 
+SADHANA CONSULTANTS 
+DATA SCIENTIST-ANALYTICS & INSIGHTS JUL 2019 TO TILL DATE
+Performed extraction of data-driven insights from large unstructured
+data sets by performing knowledge discovery tasks like data
+acquisition, cleaning, integration & transformation. 
+Performed predictive analytics using Machine Learning & Deep
+Learning modelling for Classification and Regression problems.
+Performed Unsupervised Machine Learning like Clustering & Topic
+modelling.
+MATILDA BENHAMS
+S K I L L S
+Data Science, Data Analytics,
+Database Management, Data
+Analysis, Data Mining, Data
+Modelling, Data Integration,
+Machine Learning, Statistical
+Modelling, Natural Language
+Processing, Predictive Analytics,
+Python, SQL, Flask. 
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH/B.E. (COMPUTERS) FROM RAJIV GANDHI PROUDYOGIKI
+VISHWAVIDYALAYA (RGPV), BHOPAL IN 2019
+D A T A  S C I E N T I S T
+P R O J E C T S
+Transformer based Question
+Answering Chatbot

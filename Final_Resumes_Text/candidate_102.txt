@@ -1,0 +1,32 @@
+TANNER WILLIAMS
+SOLUTIONS ENGINEER
+PROFESSIONAL PROFILE
+I am currently working in the EV space
+developing software solutions helpful for
+EVs. I am looking for a job switch to
+transition into Data Science and utilize my
+currents skills & learnings from my
+Master's course to solve new problems. 
+PROFICIENT SKILLS
+Data Analysis, EDA, Python, Machine
+Learning, SQL, NLP, MATLAB, C#, Node.Js,
+Statistics, Business Analytics, Predictive
+Modeling, Data Modeling.
+EMPLOYMENT HISTORY
+Developed a customized analysis tool that improved the analysis
+time by 4 folds using Python, Chaco Plotting Library & Traits UI
+Library. Developed a Battery SOH forecasting application.
+Development Engineer(Solutions), Feb 2019 to Till Date
+OCTILLION POWER SYSTEMS PVT LTD.
+EDUCATIONAL HISTORY
+B.Tech(Electrical) from ACP College Of Engineering,
+Mumbai 2017 
+MS(Artificial intelligence and Machine Learning), Part
+time from John Moore's University, UK in 2020
+ACHIEVEMENTS AND EXTRA
+CURRICULAR
+Embedded Python Certification 
+PROJECTS
+EV Battery Issue Tracking Software 
+Built a conversational chatbot using
+RASA 

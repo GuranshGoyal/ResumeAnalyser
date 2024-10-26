@@ -1,0 +1,34 @@
+SAMUEL LEE
+JUNIOR MACHINE LEARNING ENGINEER
+WORK EXPERIENCE
+S2H Minds Pvt Ltd 
+Junior Machine Learning Engineer May 2019 -
+Ongoing 
+Working on Natural Language Processing based
+Speech processing engines, "Key-Word" recognition,
+and Recommender System. 
+ACADEMIC PROFILE
+B.Sc (Statistics) from Osmania University in 2019
+EXECUTIVE
+SUMMARY
+I am a junior Machine Learning
+Engineer who has worked on
+commercial grade recommender
+systems and Speech processing
+systems for home devices.
+PERSONAL
+SKILLS
+Machine Learning, Algorithm
+Development, Python, Data Mining,
+Text Mining, Natural Language
+Processing, Pattern Recognition,
+Deep Learning, Neural Networks,
+Speech Identification, RNN, LSTM,
+Word-Clouds, Tensorflow,
+Beautiful Soup.
+PROJECTS
+Mini Interactive website for Quiz
+EXTRA-CURRICULARS
+Recommender Systems -
+Understanding the underneath,
+University of Waterloo.

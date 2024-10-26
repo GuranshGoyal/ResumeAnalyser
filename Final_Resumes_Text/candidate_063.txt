@@ -1,0 +1,41 @@
+Joseline
+Hernandez
+D A T A  S C I E N T I S T  A N D  M A C H I N E  L E A N R I N G
+E N G I N E E R
+Executive Profile
+Good understanding of Data
+Preprocessing, training and deployment of
+machine learning and deep learning
+models.. Worked on Time Series
+Forecasting, Classification and Clustering
+Problems. Hands on experience in NLP
+tools., 
+Other Activities
+Data Analysis with python 
+Machine Learning with Python 
+Machine Learning Stanford University
+Projects
+Study of factors affecting statistical
+comparisons, such as the type of dataset,
+the method of selection of train-test data,
+and the type of ML algorithm. 
+Skills
+Python, MySQL, Natural Language
+Processing, Machine Learning, Neural
+Networks, Flask, Docker, GIT, BERT, LSTM,
+RNN, Deep Learning,  AWS, RNN,
+Tensorflow, Keras, PyTorch, Numpy,
+Pandas, Glove, Lucene, Linux, Devops,
+Spacy, GPU, Data Science.
+Work Experience
+BrainStrom 
+Machine Learning Engineer Dec 2019- till date 
+Worked on end-to-end Question generation application from
+paragraph using BERT and GPT2 with the use of GPU, Docker, and
+Flask Framework. 
+IBB Tech Pvt Ltd Junior 
+Machine Learning Intern, Jan 2019-Nov 2019 
+Dashboards for real-time monitoring of Sensor Data collected using
+different sensors installed inside a house.
+Education
+B.Tech (Telecommunication) from SKN, Coimbatore in 2019

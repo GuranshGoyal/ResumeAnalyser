@@ -1,0 +1,34 @@
+P R O F I L E
+I just started my journey as a Machine Learning developer after
+graduating from college. During college, I also worked as a Research
+Assistant, where I was part of team that was developing A
+segmentation technique for Intelligent Transportation System.
+TATA CONSULTANCY SERVICES LTD.  
+MACHINE LEARNING ENGINEER,  SEP 2019 TO TILL DATE 
+Algorithm engineer and  solution developer for SP business unit
+Analyze the operational data, and derive solutions for customers
+based on requirements. 
+ABIGAIL FERNANDES
+S K I L L S
+Machine Learning Engineer, Data
+Processing, Data Modelling, Data
+Structures, Deep Learning,
+Application Development, Python,
+Django, Flask, Kubernetes, C++ 
+P R O J E C T S
+Conway's Game of Life using
+Symmetrical Algorithm
+Position and Location
+Determination for Transportation
+System.
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH(COMPUTERS) FROM SHRI GURU GOBIND SINGHJI COLLEGE
+OF ENGINEERING AND TECHNOLOGY, NANED IN 2019
+A C T I V I T I E S  A N D  A W A R D S
+RUNNER-UP, SOLINOVATE, BITS GOA
+NANYANG TECHNOLOGICAL UNIVERSITY, RESEARCH ASSISTANT SEP
+2018
+Developed a positioning system based on coarse-grained location
+data for Intelligent Transportation System.
+A S S O C I A T E  M A C H I N E  L E A R N I N G  E N G I N E E R

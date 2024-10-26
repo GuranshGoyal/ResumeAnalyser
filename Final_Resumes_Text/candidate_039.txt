@@ -1,0 +1,29 @@
+NICOLE BREWER
+POST GRADUATE BUSINESS
+ANALYST
+PROFESSIONAL PROFILE
+Post Graduate Analyst experienced in
+Business Management and Statistical
+Analysis. I have a very good grasp on
+finding the best solution for a business
+and applying them.
+PROFICIENT SKILLS
+Data Analysis, Business Analysis,
+Statistical Analysis, Regression Analysis,
+Natural Language Processing, Machine
+Learning, Numerical Analysis.
+EMPLOYMENT HISTORY
+Leveraged NLP, ML and Amazon comprehend medical API to
+predict patient diseases, severity, frequency, 
+Statistical Analyst, Jan 2020 to Oct 2020
+BVB
+EDUCATIONAL HISTORY
+BSc Statistics 2018, IISc 
+MSc Data Analysis and Statistical Computation 2020, IIIT
+Bangalore
+ACHIEVEMENTS AND EXTRA
+CURRICULARS
+Tableau CA Certification - 2020 
+Natural Learning Processing 
+PROJECTS
+Understanding emotion from text.

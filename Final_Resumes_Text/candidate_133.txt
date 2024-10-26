@@ -1,0 +1,34 @@
+Drew Hall
+A S S O C I A T E  M A C H I N E  L E A R N I N G  E N G I N E E R
+Executive Profile
+Machine Learning Engineer skilled in NLP ,
+Chatbot , Databases and creating machine
+learning models and retraining systems
+and transforming data science prototypes
+to production-grade solutions. Machine
+Learning Engineer skilled in ML, Python,
+NLP, Frameworks, DL.
+Other Activities
+Certificate program in python
+programming.
+Projects
+Whats App ChatBot 
+Devnagari Character recognition
+Skills
+Python, Machine Learning, Natural
+Language Processing, Text Mining, Data
+Scientist, Data Analyst, Deep Learning,
+MongoDB, SQL, Flask, Data Analytics, Big
+Data Analytics.
+Work Experience
+Bristlecone 
+Machine Learning Engineer Nov 2018 to Apr 2020 
+Solve Bot is using ML to find ticket categories, as well as auto,
+populate various fields like location, personal details thus enhancing
+user experience. The bot has seamless integration with SAP to get user
+details. 
+Education
+B.Tech from Thakur Shiv Kumar Singh Memorial Engineering College in
+2019 
+Diploma (Big Data Analytics) from Institute for Advanced Computing and
+Software Development in 2019

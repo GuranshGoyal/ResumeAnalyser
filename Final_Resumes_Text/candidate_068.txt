@@ -1,0 +1,37 @@
+MICHAEL REEVER
+FRESHER SOFTWARE DEVELOPER
+PROFESSIONAL PROFILE
+Hands-on experience in manipulating and
+analyzing complex, high-volume, and high
+dimensionality data from varying data
+sources Enhanced data collection
+procedures to include information that is
+relevant for building analytic systems
+Excelled at performing statistical analysis
+and fine-tuning using test results.
+PROFICIENT SKILLS
+Data Science, Logistic Regression, 
+ Clustering, Data Structures, Software
+Engineer, Data Analytics, Machine
+Learning, Visual Studio, Statistical
+Analysis, Linux, Unix, Python,Software
+Developer.
+EMPLOYMENT HISTORY
+Creating Dashboards and Analytical Front-ends to collect, display
+and analyze data effectively analyzing real-world problems and
+providing ways to solve them. Using machine learning and
+statistical modeling techniques to develop and evaluate
+algorithms to improve performance, quality, data management,
+and accuracy. Understanding business objectives and developing
+models that help to achieve those objectives along with metrics
+to track their progress.
+SDE, Apr 2019 to Till date
+Systemica Consultants
+EDUCATIONAL HISTORY
+Bsc (IT) University of Mangalore, 2019 
+ACHIEVEMENTS AND EXTRA
+CURRICULARS
+Training and deploying a machine model.
+PROJECTS
+Architecture and Design of the Entire IDS
+System.

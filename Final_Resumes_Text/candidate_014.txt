@@ -1,0 +1,36 @@
+GRACE BAILRY
+M A C H I N E  L E A R N I N G  D E V E L O P M E N T  A N D  D E P L O Y M E N T  
+SKILLS
+Software Engineer/Developer,
+Software Development, Project
+Management, Machine Learning,
+Computer Vision, OpenCV, Python,
+C++, Ruby, Learning Algorithm. 
+EDUCATION
+B.Tech in Electronics & Computers from DVR College of Engineering &
+Technology in 2017 
+Post Graduation in Software Development from CDAC Noida in 2019
+OTHER ACTIVITIES
+Scalable Projects and their Deployment - SDLC Pioneers
+Deployment of End to End ML Projects - KVCC'20 Workshop
+PROJECTS
+Clustering of images based on feature
+management
+Creating a recommender system to
+understand false alarms on support
+side of real time services.
+PERSONAL PROFILE
+I am a software engineer who has worked
+on several computer vision projects and
+their end to end deployment. I am looking
+to join as a Machine Learning developer to
+closely work on problems and increase my
+grasp over the domain. 
+WORK BACKGROUND
+Eximius Design Pvt ltd company
+Software Development and Deployment Engineer Apr 2019 to Till Date
+Implementing multiple components of a face identification system which
+include face alignment and landmark detection. Improving the validation
+pipeline of face recognition: Collected data under different lighting
+conditions. Performed Image manipulation operations on data to increase
+the accuracy of the pipeline.

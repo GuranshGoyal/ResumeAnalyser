@@ -1,0 +1,26 @@
+BILL CLIFFORD
+PROFILE
+I am an experienced analytics specialist seeking a full-time
+position in the field of data science and application in
+business problem solving, where I can apply my knowledge
+and skills for continuous improvement.
+SKILLS
+Data Science, Customer analytics, Data
+Visualization, Natural language Processing, SQL,
+Python, R, Tableau, Alteryx, Process Improvement.
+EXPERIENCE
+Orchidia Tours and Travels 
+Data Managerial Intern, Apr 2020 to Oct 2020 
+ 
+Email prioritization & classification based on Natural
+language processing. Customer analytics for declining
+businesses incorporating sentiment analysis.
+EDUCATION
+B.Tech, ECE, Maulana Malviya College
+for Informatics, Ahmedabad 2020
+D A T A  M A N A G E R  A N D  A N A L Y S T
+ACTIVITIES
+IBM Analytics Certification.
+PROJECTS
+Travel & Entertainment registration
+automation.

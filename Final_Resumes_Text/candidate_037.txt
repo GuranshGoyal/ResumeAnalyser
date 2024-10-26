@@ -1,0 +1,38 @@
+NAOMI JACKSON 
+JUNIOR SDE-MACHINE LEARNING
+WORK EXPERIENCE
+HCL 
+Junior SDE(Data and Machine Learning), 
+May 2019 - Ongoing
+Developed key aspects of a model that was used to
+Understand Local Dravidian Languages and
+Translate them as accurately to English.
+ACADEMIC PROFILE
+BCA STC College, Pondicherry, 2019
+EXECUTIVE
+SUMMARY
+Understanding and solving
+problems has been one my core
+objectives since I started working.
+Exploring data and the different
+interpretation it can have is what
+amazes me. Currently interested
+Machine Learning developer and
+engineer roles.
+PERSONAL
+SKILLS
+Software Developer, Python, SQL,
+Machine Learning, Natural
+Language Processing, Java, SAP,
+HTML, API Design, Data Analysis,
+Matplotlib, Seaborn, Tableau..
+PROJECTS
+Digital Automation Profiling using
+Machine Learning
+EXTRA-CURRICULARS
+A Gentle Introduction to Deep
+Learning Using Keras 
+Machine Learning A-Z™: Hands-
+On Python & R In Data Science
+Deep Learning: Advanced NLP and
+RNNs

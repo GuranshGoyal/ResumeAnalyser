@@ -1,0 +1,32 @@
+ZACHARY PEREZ
+PROFILE
+Good knowledge of C++ and OOPS concepts. Good
+knowledge of Data Structures. Knowledge of scripting
+language, Python. Understanding of Internals of operating
+systems (OS), GIT, and SVN as version control system.
+SKILLS
+Embedded Software Development, Embedded
+Systems, Project Management, Change
+Management, Defect Management, Machine
+Learning, Unit Testing, C++, GIT, Data Structures,
+Python.
+EXPERIENCE
+BOSE 
+Product Engineer Intern, Jan 2019 - Aug 2019
+ 
+Creating NLP based recommendation system for a product
+catalog. The data was taken from a customer survey and
+we did some pruning, cleaning and finally building the
+model to publish on the website.
+EDUCATION
+B.Tech(Telecommunication) from
+Jawaharlal Nehru Technological
+University (JNTU) in 2017. 
+M.Tech (Electrical) from Manipal
+University in 2019.
+ I N T E R N
+ACTIVITIES
+Emertxe Certified Embedded
+Professional (ECEP).
+PROJECTS
+NA

@@ -1,0 +1,38 @@
+P R O F I L E
+As a research assistant I always try to define new boundaries and work in a
+meticulous way to figure out solutions. I have used Machine Learning as a base
+for our product design to synthesis chemical architectures and their reaction,
+right now I would like to be involved more on the application development side
+and was looking for an opportunity that did such.
+SK JADODIA LABS 
+CHEMICAL SYNTHESIS RESEARCH ASISTANT, JAN 2019 - ONGOING
+Developed a Machine learning prediction model to optimize steam
+consumption in MSFE.
+Using Clustering determined paint molecules that affected
+breathing issues in children.
+Using Algorithmic synthesis decided which compounds should be
+added to an industrial solution to result in a required reaction
+without producing toxic waste.
+SCARLETT MESTOS
+S K I L L S
+MATLAB, Python, Aspen, Minitab,
+Catalysis, Research Analysis, Data
+Analytics, Deep Learning, Machine
+Learning, Process Optimization,
+Research Scientist, Chemical
+Engineering, Compound
+Synthesis.
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH CHECMICAL ENGINEERING KSV UNIVERSITY KOCHI, 2017
+M.TECH CHEMICAL SYNTHESIS KSV UNIVERSITY KOCHI, 2019
+G R A D U A T E  R E S E A R C H E R
+A C T I V I T I E S  A N D  A W A R D S
+MATLAB PROFESSIONAL CERTIFICATE
+MACHINE LEARNING DATA SCIENCE USING PYTHON CERTIFICATE
+P R O J E C T S
+Understanding Chemical
+composition of complex
+compounds using machine
+learning and organic molecular
+telemetry. 

@@ -1,0 +1,41 @@
+GARETTE PAIGE
+ASSOCIATE SOFTWARE ENGINEER
+WORK EXPERIENCE
+Delta Info-nancial Services 
+SDE for Software Caging, Jun 2019 to Ongoing
+Applying IAM solutions using SailPoint with
+integration to various target systems like Active
+Directory, Web Services, Workday, and Delimited
+Files. Implemented all solutions using Java
+implementing & monitoring security alerts for the
+protection of computer systems, networks, and
+information. Working on requirements gathering,
+design & development of the IAM Solution with
+leading healthcare clients. 
+ACADEMIC PROFILE
+B.E. (Computers) from Jyothi Institute of Engineering
+& Technology, Hyderabad in 2019
+EXECUTIVE
+SUMMARY
+Associate Solution Advisor
+currently enrolled in PG for Data
+science, Knowledge in data
+manipulation, analysis, reporting
+and data visualization. In depth
+knowledge of tools used for
+production.
+PERSONAL
+SKILLS
+Machine Learning, Data Analysis,
+Data Visualization, Risk
+Assessment, Debugging, Database
+Management, Access Control, IAM,
+Sail point, Java, Python, MySQL,
+MongoDB, Data Structures.
+PROJECTS
+Risk Management 
+Sentiment Analysis General 
+Text Classification
+EXTRA-CURRICULARS
+Microsoft Technology Associate
+(Software Fundamentals) Python

@@ -1,0 +1,30 @@
+GAVING WILSON
+PROFILE
+Passionate, motivated and highly conjugated towards
+a building mentality. Perfecting for a better code is
+always my ideology.
+SKILLS
+Machine Learning, Data Structures, Data
+Mining, Data Modeling, Python, Java
+Programming, Algorithms.
+EXPERIENCE
+Kinsgley Co. 
+Automation Engineer, Jul 2019 - Ongoing 
+ Automating Data flow and deriving machine
+learning solutions from them. Building Data-
+centric models with fine-tuned parameters. 
+CIS IT Services 
+Data Engineer, Jun 2018 - May 2019 
+Understanding Client problems and
+constructing data driven solutions. 
+EDUCATION
+B.Sc (Statistics) at Chadrasekhar
+University, Mangalore, 2018
+D A T A  A N D  A U T O M A T I O N  E N G I N E E R
+ACTIVITIES
+Artificial Intelligence and Robotics 
+PROJECTS
+Business Intelligence Reporting 
+Create Dynamic Dashboard-based data
+in SQL Server Queries, make views for
+the report.

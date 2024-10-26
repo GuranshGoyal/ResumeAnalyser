@@ -1,0 +1,26 @@
+P R O F I L E
+Software Developer and Data Analytics fresher. Looking to get into the field of
+Machine Learning.
+LTT DIGITAL SERVICES
+JUNIOR SDE, FEB 2019 - TILL DATE
+Understanding text models and using them to create chatbots on
+webpages of clients.
+MARIANA HOLDEN
+S K I L L S
+Machine Learning, Natural
+Language Processing, Artificial
+Intelligence, Pattern Recognition,
+Neural Networks, RNN, LSTM, Data
+Science, Deep Learning, Python,
+NLP, Artificial Neural Networks,
+Keras, Tensorflow, Object
+Detection.
+E X P E R I E N C E
+E D U C A T I O N
+BSC (CA) FROM UNIVERSITY OF HYDERABAD, 2019
+A S S O C I A T E  D E V E L O P E R
+P R O J E C T S
+NLP using AWS. 
+Computer Vision on AWS.
+A C T I V I T I E S  A N D  A W A R D S
+CERTIFICATE ON DATA ANALYSIS

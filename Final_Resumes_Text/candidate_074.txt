@@ -1,0 +1,31 @@
+HAYLEE ROGERS
+SOFTWARE DEVELOPER(AI/ML)
+PROFESSIONAL PROFILE
+I am a software developer working with
+cloud infrastructure and management. I
+have been part of different projects that
+were developed on different Machine
+Learning algorithms.
+PROFICIENT SKILLS
+Machine Learning, Deep Learning
+Algorithm, Image Processing, Computer
+Vision, AWS Deployment, AWS EC2, AWS
+SAGEMAKER, AWS Lustre & FSx, Flask API,
+Data Visualization, Natural Language
+Processing, Python, C++, Ruby.
+EMPLOYMENT HISTORY
+Learning and Assessment platform for various exams using ML
+Algorithm.
+Extraction of Images from word Documents as an input files,
+classification of images as vector and raster images.
+Software Developer (AI/ML), Mar 2019 to Till Date
+DigiScape Tech Solutions Ltd.
+EDUCATIONAL HISTORY
+B.Tech/B.E. (Electronics and communication) from
+Nagpur University in 2019 
+ACHIEVEMENTS AND EXTRA
+CURRICULARS
+AWS Developer - Stage 2
+PROJECTS
+Mini Cloud Storage using node based
+processors.

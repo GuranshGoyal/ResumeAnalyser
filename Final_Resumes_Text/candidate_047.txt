@@ -1,0 +1,27 @@
+CAROLIN BANKS
+S O F T W A R E  D E V E L O P E R
+SKILLS
+C++, Python, Firebase, Flutter,
+Tensorflow, Pandas, Numpy, Kotlin,
+Java, MongoDB, NoSQL.
+EDUCATION
+B.Tech (Computers) from National Institute of Technology (NIT),
+Hamirpur in 2020
+PERSONAL PROFILE
+I am a software engineer, and I want to
+work on full time roles associated with
+Machine Learning. I have previously worked
+on some corporate models and due to its
+intricacies I want to explore more in the
+domain.
+WORK BACKGROUND
+XcelSior 
+SDE , May 2019 - Till date
+Used unsupervised learning algorithms like DBSCAN to identify new
+identities in the system. This was used to increase the number of
+identities in the Face recognition pipeline. Enhanced this setup by
+implementing the K-Means algorithm as well.
+OTHER ACTIVITIES
+B.Tech(Metallurgy) CIT, Calicut, 2019
+PROJECTS
+Face Recognition system

@@ -1,0 +1,31 @@
+Daniel Lopez
+D A T A  A N A L Y S T
+Executive Profile
+As a Data Analyst I always look into more
+innovative ways of finding figures and
+facts from data. I have also worked with
+some production based Machine learning
+application problems and I would like to
+involve myself more with such ventures.
+Other Activities
+Data Wrangling using Python
+Advanced Dashboard Using Tableau
+Projects
+Automated Text Analyzer from Large
+Collection of customer chat interactions.
+Skills
+Machine Learning, Artificial Intelligence,
+Python, Predictive Analytics, Statistical
+Modeling, Data Visualization, Data Analysis,
+Data Mining, Data Validation, Power Bi,
+Text Analytics, Data Modeling, Data Analyst
+Work Experience
+Volvo India Pvt. Ltd.  
+Data Analyst May 2019 to Till Date 
+Working as a Data Analyst, I extracted the data and performed different
+data processing techniques, and deploy machine learning algorithms
+according to requirements. Also, I automated different pipelines to make
+dataflow easier.
+Education
+B.Tech from Gujarat University in 2017 
+M.Tech from Vellore Institute of Technology in 2019

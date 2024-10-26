@@ -1,0 +1,31 @@
+P R O F I L E
+I am a software developer currently working on Machine Learning
+Projects. The domain of analytics and Machine Learning has amassed
+a greater interest for me and I want to explore and learn about the
+core concepts used in production. I am looking to switch to a full-
+time role that will help me explore more about this. 
+DESARKS 
+SOFTWARE DEVELOPER (MACHINE LEARNING), NOV 2019 - ONGOING
+Fraud Detection using Natural Language Processing to identify the
+frauds within the organization for the financial domain.
+Fraud Analytics to Analyse the financial domain data and plot some
+insights based on that.
+Network Analysis and advanced graphic visualization concepts to
+map and simplify.
+BROODY MICHAELS
+S K I L L S
+Statistical Modeling, Natural
+Language Processing, Text Mining,
+Python, PySpark, Microsoft Azure,
+Azure Databricks, Azure Data
+Factory, SQL, Machine Learning
+Engineer, Data Analyst.
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH (INFORMATION TECHNOLOGY) FROM PRM COLLEGE OF
+ENGINEERING IN 2019
+S O F T W A R E  D E V E L O P E R ( M A C H I N E  L E A N R I N G )
+A C T I V I T I E S  A N D  A W A R D S
+SOFTWARE LIFECYCLE WORKSHOP
+P R O J E C T S
+Text Analyzer Using NLTK

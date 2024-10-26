@@ -1,0 +1,29 @@
+SYDNEY JONES
+PROFILE
+I am currently working as a junior Machine Learning Engineer
+and I want to learn more about how Machine Learning
+projects impact real work scenarios.
+SKILLS
+Data Mining, Deep Learning, Machine Learning,
+Software Testing , Algorithms, Python, JIRA, NLP,
+SQL, Unsupervised learning, Clustering, Regression,
+Model Development, MLOPS.
+EXPERIENCE
+TSC Solutions
+Junior Machine Learning Engineer, 
+Oct 2019 - Ongoing
+Working for an automotive manufacturing
+client to figure how fault predictions in
+production line using Machine learning and
+computer vision.
+EDUCATION
+B.Tech(Electronics/Telecommunication
+) from STES College of Engineering,
+Pune in 2019
+J U N I O R  M A C H I N E  L E A N R I N G  D E V E L O P E R
+ACTIVITIES
+Certified Cloud Deployment
+Correspondent.
+Embedded Systems on Python - Level B
+PROJECTS
+Photo Basher Using Python and NLTK

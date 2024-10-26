@@ -1,0 +1,36 @@
+DAVID PHIAST
+A P P L I C A T I O N  D E V E L O P E R
+SKILLS
+Deep Learning, Machine Learning,
+Artificial Intelligence, Linear
+Regression, Software Engineering,
+Python, Java, SAP,C, C++, Jenkins,
+Kubernetes, Docker, Backend.
+EDUCATION
+B.Tech(Civil) from Jawaharlal Nehru University in 2019.
+PERSONAL PROFILE
+I am an application developer and
+associate software engineer for Machine
+learning based applications. I wasn't aware
+of Machine learning but after becoming
+familiar with it over the course of a year I
+am very much intrigued and fueled by its
+process and how applications can be
+developed around it. I want to join a role
+where I can experiment and learn with new
+types of data and increase my ability to
+build more complex models in the future.
+WORK BACKGROUND
+Accenture 
+Application Development Associate. Jan 2019 to Jan 2020
+Created all master data of SAP EAM. Performed data loading
+from legacy system to SAP system using LSMW. Created
+Configuration documents for clients and also User stories.
+Performed the end to end process of SAP EAM.
+OTHER ACTIVITIES
+AI on the cloud using Google Cloud Platform.
+PROJECTS
+AI based Cricket Match Intensity
+counter.
+Property Valuation using Machine
+Learning.

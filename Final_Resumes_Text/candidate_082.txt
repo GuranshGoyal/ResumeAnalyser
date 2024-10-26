@@ -1,0 +1,39 @@
+BETHANY CUMMINS
+F R E S H E R
+SKILLS
+Python, Data Analytics, Predictive
+Analytics, Machine Learning, Artificial
+Intelligence, Natural Language
+Processing, Deep Learning, Data
+Analysis, Business Analytics, Portfolio
+Analysis, Credit Risk Modeling Fraud
+Detection, R Programming, SQL, Linux,
+PySpark.
+EDUCATION
+B.Tech(Computers) from Amity University, Noida in 2021
+PERSONAL PROFILE
+Well adapt in utilizing Statistics and
+Machine Learning tools for Descriptive and
+Predictive Analysis. Strong analytical skills
+with the ability to collect, organize, analyze
+and disseminate significant amounts of
+data, attention to detail and accuracy.
+WORK BACKGROUND
+KPG Solutions Pvt Ltd 
+Deep Learning Engineer Intern, Jan 2020 - March 2021 
+Virtual Internship on Data Science and Business Analytics 
+ICT Academy 
+Summer Trainee - Cloud Administration. Jun 2019 to Sep 2019
+Learned about Amazon Web Services and its various applications like
+EC2, Cloudmail, Elastic Block Store, Elastic Beanstalk, Elastic Load
+Balancing, Amazon Simple Storage Service, Glacier, cloud front, Elastic
+File System etc. 
+OTHER ACTIVITIES
+Machine Learning for Business 
+Machine Learning for Marketing in Python
+PROJECTS
+Risk and Returns using the Sharpe
+ratio. 
+Credit Risk Modelling in Python.
+Fraud Detection in Python. 
+BioMedical Image Analysis in Python. 

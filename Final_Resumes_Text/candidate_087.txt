@@ -1,0 +1,33 @@
+P R O F I L E
+I am a fresher specializing in data analytics and Machine Learning
+Application development. I believe that if given the opportunity I can
+prove my potential as a developer. I can easily communicate and work
+under someone's supervision who can guide me and help me in this
+journey of learning and exploring.
+QUANTIMUM
+INTERN, OCT 2020 - DEC 2020
+During my internship I worked on data preparation and customer
+analysis, and analysis of commercial applications
+JESSICA PARKAR
+S K I L L S
+Python, Data Analytics, Machine
+Learning, Artificial Intelligence,
+Natural Language Processing,
+Deep Learning, Data Analysis,
+Business Analytics, SQL, Linux,
+Scala.
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH(COMPUTERS) FROM AMITY UNIVERSITY, NOIDA IN 2021
+G R A D U A T E  D E V E L O P E R
+A C T I V I T I E S  A N D  A W A R D S
+DEEPER DIVE INTO NEURAL NETWORKS - NYU
+P R O J E C T S
+Song Title Information Gathering
+tool.
+NAZAPP
+SOFTWARE DEVELOPER INTERN, DEC 2019 - MAY 2020
+Developed a small script based application to indentify fake
+websites.
+Created multiple applications based on Object detection, OCR and
+NLP.

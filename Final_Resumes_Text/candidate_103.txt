@@ -1,0 +1,35 @@
+TESSA MAERS
+PROFILE
+A strategic analyst whose skill spans over a vast array of
+experience. I have been part of teams and contribute a lot
+to their products and services. As an analyst, I always try to
+provide the best results I can extract from data.
+SKILLS
+Business Strategy, Consulting, Excel, Capital
+Markets, Investment Banking, Investment Research,
+Statistics, Strategy Consulting, VBA, Python,
+MATLAB, Machine Learning.
+EXPERIENCE
+ GDMNS
+Strategy Analyst,
+Oct 2019 - Ongoing
+ 
+ Provide key insights that help make business decisions
+ 
+EluCIDATA
+Data Scientist,
+Jan 2018 - Sep 2019
+ 
+Created a CRISPR/Cas9 splicing simulator for
+researching DNA/RNA cutting process and other genomic
+software applications in R and Python.
+ 
+EDUCATION
+B.Tech(Computers) from UNIVERSITY
+OF DELHI, DELHI in 2018
+B U S I N E S S  S T R A T E G I S T
+ACTIVITIES
+Python Developer Certification.
+PROJECTS
+Image Generation from Text using Auto-
+encoder

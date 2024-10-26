@@ -1,0 +1,23 @@
+Eli Scott
+F R E S H E R
+Executive Profile
+Seeking challenging opportunity in the
+field of data science and data analytics
+where I can utilize my skills and
+knowledge to contribute for the growth of
+the organization
+Other Activities
+Python Machine Learning Udacity
+Projects
+Prediction model which can predict the
+impact of the incident raised by the
+customer.
+Skills
+Python, MySQL, Tensorflow, Keras,
+Machine Learning, Deep Learning.
+Work Experience
+JP Chand and Co 
+Intern , May 2020 - Oct 2020 
+Trained as a Python developer and machine learning model builder.
+Education
+B.Tech(Metallurgy) CIT, Calicut, 2019

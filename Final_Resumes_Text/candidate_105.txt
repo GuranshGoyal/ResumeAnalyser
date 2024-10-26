@@ -1,0 +1,21 @@
+JEREMY WANG
+J U N I O R  P Y T H O N  D E V E L O P E R
+SKILLS
+Machine Learning, Data processing,
+Data visualization, Deep Learning, SQL,
+Python Programming, PyCharm,
+Django.
+EDUCATION
+B.TECH CSE Heramba Chandra College, 2020
+PERSONAL PROFILE
+Fresher python developer interested in
+data analytics and machine learning. 
+WORK BACKGROUND
+DKB Innovations
+PYTHON INTERN, JUN 2019 - JAN 2020  
+Worked on a small end-to-end project related to a shopping site and
+search engine recommender.
+OTHER ACTIVITIES
+Statistics in Python
+PROJECTS
+Smart API serving.

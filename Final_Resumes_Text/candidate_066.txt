@@ -1,0 +1,28 @@
+HILDA HAWTHORN
+PROFILE
+Associate Software Engineer experienced with data
+handling and building large scale solution. 
+SKILLS
+Software Engineering, SDLC, Data Handling,
+Data Warehousing, Data Cleaning, Model
+Building, AWS, Python, C++, Big Data.
+EXPERIENCE
+SGN Pvt LTD 
+Associate Developer, Nov 2019 - Till Date 
+Software Development Lifecycle (SDLC) right
+from requirement analysis, documentation
+(functional specifications, technical design),
+coding and testing (preparation of test cases
+along with implementation) to maintain the
+proposed applications.
+EDUCATION
+B.Sc(Applied Statistics and
+Computation) HIT, Haldia 2019 
+A S S O C I A T E  D E V E L O P E R
+ACTIVITIES
+Data Structures and Algorithms in Java
+DATA STRUCTURES IN PYTHON 
+PROJECTS
+Job categorization based on Dynamic
+selection.
+ Maintenance scheduler using ML

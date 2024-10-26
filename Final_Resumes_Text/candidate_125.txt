@@ -1,0 +1,31 @@
+ETHAN HUNT
+P Y T H O N  D E V E L O P E R  
+SKILLS
+Django, Python, Relational databases,
+RestAPI, Github, Jira, PostgreSQL,
+Software development, Debugging,
+Machine learning, Natural language
+Processing, Artificial Intelligence, Data
+Analysis, Docker, Tornado, Software
+Developer, Project Management.
+EDUCATION
+BCA (Computers) from Dr. Virendra Swaroop Institute of Computer
+Studies, Kanpur in 2016 
+MCA (Computers) from Pranveer Singh Institute of Technology, Kanpur
+in 2019
+PERSONAL PROFILE
+Python Developer with 1.5 years of
+experience in Django, Python, Machine
+Learning, and REST API. A regular
+contributor to the system or the product
+enhancement. A trainer who successfully
+motivated a group of young developers into
+getting the highest accolades for their
+recent endeavors.
+WORK BACKGROUND
+Daffodil Software Pvt Ltd.
+Software Developer Jan 2019 to Till Date
+Developing, designing and optimizing the automation script and
+crons to reduce the daily task processes. Managing and executing
+the solution for the database conflicts or data loss that can appear
+due to new changes.

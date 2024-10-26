@@ -1,0 +1,28 @@
+KEISUKE YAMAMOTO
+PROFILE
+Professional with 3 months of experience in Web
+Development and interested in ML.
+SKILLS
+Web Developer, Data Analyst, Web Development,
+Machine Learning, Python, FrontEnd, HTML,
+Javascript, PHP, CSS, MySQL, Java, Data
+Structures, OOP, Algorithms, C.
+EXPERIENCE
+SAI Technologies, 
+Intern, Aug 2020 to Till Date 
+ 
+Working at a cybersecurity company as an intern.
+Working on different projects which need python,
+cybersecurity, HTML, CSS, javascript, java, and
+Docker containers as main skills. 
+EDUCATION
+B.Tech(Computers) from Shri Guru
+Gobind Singhji College of Engineering
+and Technology, Nanded in 2019 
+J U N I O R  S O F T W A R E  D E V E L O P E R
+ACTIVITIES
+Data Analyst, 
+Python Programming.
+PROJECTS
+Character Detection using SVM
+Classification.

@@ -1,0 +1,21 @@
+VoyaGenius Labs 
+Software Developer (ML), Dec 2018 - Ongoing 
+Geocoding and detecting rooftop images based on
+given Indian addresses.
+B.Tech(Telecommunication) from KLE College of
+Engineering, Belagavi in 2018
+WORK EXPERIENCE
+EDUCATION
+LESLIE SUION
+SOFTWARE ENGINEER
+I am an assistant software engineer working on cloud-based solutions. After working on a couple of Machine Learning
+application evaluations and deployment I got really engrossed into the domain and would like to work more towards
+improving myself.
+Machine Learning Engineer, C++, Technical Documentation, Natural Language Processing, SQL, Tableau, Python, AWS,
+Azure, SAP, OracleDB, Heroku.
+ABOUT
+SKILLS
+Complexity based sorter for C++
+C++ Developer - Grade A
+PROJECT
+OTHER QUALIFICATION

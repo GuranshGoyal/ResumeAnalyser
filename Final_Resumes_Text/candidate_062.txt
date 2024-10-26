@@ -1,0 +1,23 @@
+Dass Systems
+Junior Machine Learning Engineer, Jan 2020 - Ongoing 
+Testing, debugging and parameter tuning for models
+developed by the internal team. 
+B.Tech(IT) from National Institute Of Science And
+Technology,Rourkela in 2019
+WORK EXPERIENCE
+EDUCATION
+ROBERT MATHEWS
+MACHINE LEARNING ENGINEER (QUALITY CONTROL)
+Recent Graduate testing and debugging machine learning models. I have worked on multiple projects and have
+contributed to the testing and quality control of models over time. I am looking to switch to a development role where I can
+exercise my skills.
+Machine Learning, Data Analytics, Data Manipulation, Data Mining, Deep Learning, Algorithms, Selenium, Jenkins, Python,
+Java, SQL, Quality Control.
+ABOUT
+SKILLS
+Data manipulation and Code update for
+Employee turnover Prediction using
+Random Forest. 
+Selenium Tester - Level B
+PROJECT
+OTHER QUALIFICATION

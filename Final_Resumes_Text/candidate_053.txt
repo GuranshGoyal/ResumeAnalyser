@@ -1,0 +1,35 @@
+PENELOPE TORRES
+GRADUTE RESEARCH FELLOW
+PROFESSIONAL PROFILE
+Passionate Data Engineer with a zeal to
+excel forward and produce promising
+outcomes. Hands-on knowledge in various
+Machine Learning Algorithms. Also
+experienced in data mining, warehouse
+maintaining, and visualization. In search of
+a role where I can nurture my skills and
+contribute to the growth of the company
+and myself.
+PROFICIENT SKILLS
+Data Science, Data Analysis, Data
+Structures, Data Warehousing, Data
+Visualization, Data Mining, Machine
+Learning, Artificial Intelligence, Linear
+Regression, MongoDB, Python, Django,
+Java, SQL, C++.
+EMPLOYMENT HISTORY
+Building data pipeline to clean, analyze and visualize data from
+large data warehouses and then feeding them to a large-scale
+determination engine model.
+Junior Research Fellow, Jul 2019 to Apr 2020 
+Impiger Technologies 
+EDUCATIONAL HISTORY
+B.Tech(Computers) from Anna University in 2019 
+Master's Diploma (Analytics And Artificial Intelligence)
+from Imarticus Learning in 2021
+ACHIEVEMENTS AND EXTRA
+CURRICULARS
+Research Fellowship
+PROJECTS
+Unit Scanner Using Prediction
+mechanism.

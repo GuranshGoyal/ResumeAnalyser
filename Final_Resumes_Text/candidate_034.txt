@@ -1,0 +1,34 @@
+MADELYN MILNER
+PROFILE
+ Skilled Machine Learning and Deep Learning
+practitioner, and I have worked on Computer vision-
+based projects. On the lookout for opportunities that
+help me understand more about the domain.
+SKILLS
+Machine Learning, Deep Learning,
+Computer Vision, Pattern Recognition,
+Image Processing, Image Segmentation,
+Python, Ruby, PILLOW, OpenCV.
+EXPERIENCE
+ Brane Enterprises Pvt LTD 
+ Computer Vision Engineer, Jan 2020 - Ongoing 
+ 
+ Core responsibilities included building
+Computer vision solutions for clients. I
+took part from data funneling to the final
+stages of evaluation and deployment,
+making sure that the model was service-
+ready and also do Proof-of-Concepts
+Evaluation for future projects.
+EDUCATION
+B.Tech(Computers) from JT University,
+Kanchipuram, 2020
+C O M P U T E R  V I S I O N  E N G I N E E R
+ACTIVITIES
+OpenCV made Easy - PyImageSearch
+Throttle into the world of Machine
+Learning - Workshop by H2O.ai
+PROJECTS
+Detecting Snake Breeds
+Estimation of Infection based on Skin
+granulation.

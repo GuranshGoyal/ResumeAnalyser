@@ -1,0 +1,25 @@
+HARRY MILES
+PROFILE
+Industrious and collaborative individual, Currently looking
+for an opportunity in Machine Learning and Deep Learning
+roles. I have a good depth of knowledge in ML Algorithms,
+various CNN architectures, and worked on Time series data,
+Image captioning, NLP tasks. Interested to work with an
+enthusiastic team on business problems.
+SKILLS
+Python, MySQL, Tensorflow, Keras, Machine
+Learning, Deep Learning.
+EXPERIENCE
+ASM Management
+Intern, Jan 2019 - Oct 2019 
+Understanding Image scaling models and
+using them for quality restoration of old
+images.
+EDUCATION
+B.Tech(Chemical) PPC University, 2020
+I N T E R N  F R E S H E R
+ACTIVITIES
+MACHINE LEARNING COURSE - TMLF
+PROJECTS
+Progress report and highlighting using
+NLP. 

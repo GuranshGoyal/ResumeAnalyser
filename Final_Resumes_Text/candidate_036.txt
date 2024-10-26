@@ -1,0 +1,26 @@
+James May
+F R E S H E R  S O F T W A R E  D E V E L O P E R  E N G I N E E R
+Executive Profile
+Graduate with a niche towards Deep
+Learning. Open Source Contributor and an
+avid chess player. When not working I like
+to climb the Elo ladder.
+Other Activities
+Tensorflow Developer Certificate
+Projects
+Building an Image based recommender
+system by extracting features from a
+given image using pre-trained networks.
+Skills
+Data Structures, Logistic Regression, Linear
+Regression, Machine Learning, Algorithms,
+Deep Learning, GIT, Open Source, Neural
+Networks, CNN, DNN, ANN, RNN, Keras,
+Tensorflow.
+Work Experience
+GZN Solution 
+Intern, Apr 2019 - Dec 2019 
+Worked as an SDE intern on building End to End Applications that
+leveraged Machine Learning for improved results suggestions. 
+Education
+B.Tech & M.Tech(Integrated) Sighania University, Uttarpradesh, 2020 

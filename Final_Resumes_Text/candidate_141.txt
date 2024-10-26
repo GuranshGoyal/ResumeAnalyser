@@ -1,0 +1,31 @@
+P R O F I L E
+Software developer with a niche towards end to end machine learning projects.
+Motivated towards learning, solving and producing better results. 
+KLN SOLUTIONS 
+JUNIOR DATA EVANGELIST, JULY 2019 - TILL DATE
+Building applications and exploring data and its use over different
+management solutions.
+NOLAN DRUCKS
+S K I L L S
+Data Manipulation, Data Mining,
+Python, SQL, R Programming,
+PowerBI, Tableau, Machine
+Learning, PySpark, Azure
+Databricks, AWS.
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH(INSTRUMENTATION), BABURAO PATIL COLLEGE AND
+UNIVERSITY, AURANGABAD, 2019.
+D A T A  D E S I G N E R
+P R O J E C T S
+Leveraged NLTK, Spacy, Fast text
+libraries to perform all kinds of
+NLP operations including but not
+limited to cleaning, stemming,
+lemmatization, word encoding,
+etc.
+A C T I V I T I E S  A N D  A W A R D S
+INTRODUCTION TO DATA ONTOLOGY.
+JB MANAGEMENT 
+SOFTWARE DEVELOPER INTERN, JAN 2019 - JUN 2019
+Development of a python module to assist OCR models.

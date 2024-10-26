@@ -1,0 +1,33 @@
+SOPHIA FLORES
+MACHINE LEARNING DEVELOPER(NLP)
+WORK EXPERIENCE
+eLevaTe LtD. 
+Machine Learning Developer(NLP), Apr 2019 - till
+date 
+Modelled an analytics-based recommender engine
+that used user text along with search and suggested
+the best possible products that they might be
+interested in.
+ACADEMIC PROFILE
+B.Tech(Computers) from KCCE University in 2019
+EXECUTIVE
+SUMMARY
+Recently graduated fresher
+experienced in Machine Learning
+and Natural Language Processing
+looking for roles that involve
+projects in the same.
+PERSONAL
+SKILLS
+Python Programming, Machine
+Learning, Natural language
+Processing, Numpy, NLTK, Text
+Analysis, Transformers, Series
+Analysis, Conversational AI.
+PROJECTS
+Movie Recommendation System 
+Natural Language Processing 
+Loan Approval System
+EXTRA-CURRICULARS
+Machine Learning - Py-Thonist 
+Big Data Analytics

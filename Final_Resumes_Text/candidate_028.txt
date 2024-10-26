@@ -1,0 +1,28 @@
+ASI Technologies 
+Intern, 
+Dec 2020 - Ongoing
+Working as an intern to learn the usage of Neural
+Networks and machine learning for web applications.
+Was part of a team that designed a website to
+generate random images based on search terms. Also
+worked with docker-based units for the deployment
+of applications.
+B.Tech from SGGS College of Engineering and
+Technology, Kormandal in 2020
+WORK EXPERIENCE
+EDUCATION
+JULIA THOMAS
+FRESHER DEVELOPER
+I am a fresher who is looking to work as a software developer in Machine Learning Application building and deployment. I
+am experienced in both machine learnig and deep learning and have worked on few collaborative projects on such. 
+Web Development, Neural Networks, Deep Learning, Machine Learning, Python, TensorflowJS, Front End, HTML, CSS,
+JavaScript, Flutter
+ABOUT
+SKILLS
+Object Detection 
+Image Segmentation
+Passenger health classification based on
+BMI.
+TensorflowJS Workshop
+PROJECT
+OTHER QUALIFICATION

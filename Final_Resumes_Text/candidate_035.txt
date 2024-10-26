@@ -1,0 +1,25 @@
+CISCO 
+Software Developer and Analyst Trainee
+OCT 2018 - May 2019 
+ Developed Async Functions to connect ML
+Applications and databases of clients.
+B.Tech(Instrumentation) Jodhpur University, Jodhpur,
+2018
+M.tech (Machine Learning) IIIT Delhi, 2021
+WORK EXPERIENCE
+EDUCATION
+DYLAN HERNANDEZ
+GRADUATE MACHINE LEARNING DEVELOPER
+Experienced software professional looking for data science and machine learning roles. Masters in machine learning. Good
+Knowledge of Software Development processes and Object-oriented programming. Sound Knowledge of python, scikit
+learn and keras.
+Python, Scikit Learn, Keras, Tensorflow, Object Oriented Programming,  Machine Learning, Software Engineering,
+Application Development.
+ABOUT
+SKILLS
+Intelligent Disease Recognition using Cause
+Pair Extraction
+Understanding Neural Networks - Nanyang
+University 
+PROJECT
+OTHER QUALIFICATION

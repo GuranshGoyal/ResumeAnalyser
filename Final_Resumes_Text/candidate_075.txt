@@ -1,0 +1,26 @@
+KEIRON PAVARD
+D A T A  E N G I N E E R
+SKILLS
+Data Engineer, Data Analytics , Data
+Visualization, Machine Learning,
+Statistical Modeling, Predictive
+Modeling, MongoDB, PowerBI, Tableau,
+Python, MySQL. 
+EDUCATION
+B.Tech(Electronics and communication) from Government College of
+Engineering, Pune in 2019 
+PG Diploma (Data Science and Engineering) from Great Lakes Institute of
+Management in 2021
+PERSONAL PROFILE
+Fresher Data Engineer who is experienced
+in pipeline building and analytics. Seeking
+to leverage my technical and analytical
+skills to drive growth of the organization.
+WORK BACKGROUND
+ZF Group 
+Data Engineer Associate, August 2020 - till date
+Developed a dashboard in Cognos BI to track and analyze the drop rate
+of high-end components in Automatic Pick and Place Machine in
+Hannover, Germany. The dashboard helped the business to find a faulty
+feeder which when corrected reduced the number of drops by 35% per
+day.

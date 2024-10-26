@@ -1,0 +1,28 @@
+P R O F I L E
+Extremely motivated to constantly develop my skills and grow
+professionally. I am confident in my ability to come up with innovative
+solutions and maintain better software development practices.
+SOFTWARE ENGINEER -MACHINE LEARNING
+ACS Solutions Pvt. Ltd. May 2018 to Ongoing
+Worked on the communication of edge devices with requests to
+MQTT and Cloud data allocation & estimation. Involved in
+architectural design of creating a pipeline to facilitate the
+communication between React web app and the Edge devices.
+RODNEY MICHAELS
+S K I L L S
+Python, Machine Learning, Deep
+Learning, Data Analysis, Computer
+Vision, AWS, Scikit-Learn, Numpy,
+Java, C++, SAP
+P R O J E C T S
+IoT based project that
+automatically turned on music
+based on speech and tone
+E X P E R I E N C E
+E D U C A T I O N
+B.TECH FROM V.V.I.T IN 2018
+A C T I V I T I E S  A N D  A W A R D S
+RUNNER-UP, SOLINOVATE, BITS GOA
+UPCOMING JUNIOR DEVELOPER
+ACS Technologies, 2019
+A S S O C I A T E  S O F T W A R E  E N G I N E E R

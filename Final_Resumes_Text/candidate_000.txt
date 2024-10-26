@@ -1,0 +1,27 @@
+JACOB SMITH
+F R E S H E R
+SKILLS
+Python, SQL, MySQL, Tableau, Power
+Bi, Pandas , Numpy, Matplotlib, Excel ,
+Machine Learning, AWS(EMR,EC2,S3),
+Cloud, Hive(HQL), and Excel
+EDUCATION
+B. Tech, ECE VIT-AP University 2020
+OTHER ACTIVITIES
+Deep Learning Masters
+Machine Learning
+PROJECTS
+Music Genre Classification 
+Face, eye, smile recognition
+PERSONAL PROFILE
+I am actively seeking opportunity as Data
+Analyst or Machine Learning Engineer.
+My goal is to discover new business
+strategies and create an impact through
+data driven analytical decisions and
+leading the business to success.
+WORK BACKGROUND
+Experts Hub
+Intern, May 2019
+I was part of a team that designed and developed a smart parking system
+based on Object Recognition. 

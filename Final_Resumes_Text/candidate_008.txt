@@ -1,0 +1,29 @@
+Mia Park
+P R O J E C T  E N G I N E E R
+Executive Profile
+Looking to utilize hands-on experience of
+machine learning, deep learning and
+Artificial Intelligence for data discovery,
+exploration, prediction and analysis tasks.
+Other Activities
+Azure Certification 
+Deep Learning Specialization
+Projects
+Predicting hotspots for adversarial patch
+attack 
+Object Detection using transfer learning
+Skills
+Data Analysis, Data Analytics, Data  Mining,
+Deep Learning, Machine Learning, Artificial
+Intelligence, Linear Regression, Data
+Exploration, Sequential Analysis.
+Work Experience
+WTPL 
+Associate Project Engineer, Jun 2020 - till date 
+Worked as a Developer using frameworks in the domain of Machine
+Learning. Worked closely with the data collection team to find anomalies
+in the data and find better filtration techniques when extracting data
+from large warehouses.
+Education
+B.Tech(Computers) from Goverment College Of Engineering And
+Ceramic Technology in 2020 

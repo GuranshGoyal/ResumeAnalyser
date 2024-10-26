@@ -1,0 +1,32 @@
+JULIA CHEN
+JUNIOR ENGINEER
+WORK EXPERIENCE
+Tata Consultancy Services Ltd.  
+Junior Data Engineer,  Nov 2019 to Apr 2021 
+Sentiment Analysis using the lexicon-based
+approach of semantic analysis. This technique
+calculates the sentiment orientations of the whole
+document or set of sentences from a semantic
+orientation of lexicons.
+ACADEMIC PROFILE
+B.Tech (Instrumentation and Control) from Nagpur
+University in 2019
+EXECUTIVE
+SUMMARY
+I like to identify the main objective
+of a problem and then work on it to
+improve results. Build End-to-End
+Projects using Agile Methodology
+PERSONAL
+SKILLS
+Python, Machine Learning, Text
+Analytics, Big Data Analytics, Data
+Mining, Natural Language
+Processing, Multivariate Analysis,
+R, MS-Excel.
+PROJECTS
+Processing, cleansing, and
+verifying the integrity of data used
+for analysis using Python.
+ETL pipeline to extract data from
+source DB to target DB.
