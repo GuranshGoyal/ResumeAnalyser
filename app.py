@@ -72,5 +72,5 @@ st.markdown("""
 """)
 
 st.markdown("""
-    © 2025 P-125. All rights reserved.
+    © 2025 P-125, Batch of 2027. All rights reserved.
 """)

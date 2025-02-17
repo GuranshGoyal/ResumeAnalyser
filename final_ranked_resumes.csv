@@ -1,2 +1,5 @@
-ID,ID,Years_of_Experience,Education_Level,Spell_Check_Ratio,Section_Score,Brevity_Score,Skill_Count,Technical_Score,Managerial_Score,Overall_Score,Extracted_Skills
-1,1,10,Master,0.9626769626769627,0.9,0.5575,4,0.7,0.24441307556080283,0.5953416189359371,"['communication', 'customer service', 'decision making', 'initiative']"
+ID,Overall_Score,Years_of_Experience,Education_Level,Spell_Check_Ratio,Section_Score,Brevity_Score,Skill_Count,Technical_Score,Managerial_Score,Extracted_Skills
+16,0.327443848310075,0,Master,0.9565217391304348,0.7,0.5,0,0.24,0.0526389146567718,[]
+4,0.3170444444444444,2,Associate,0.9444444444444444,0.7,0.5,0,0.18,0.10199999999999998,[]
+14,0.2938893979057592,2,Associate,0.9476439790575917,0.7,0.5,0,0.18,0.023749999999999993,[]
+5,0.22615865384615383,1,Other,0.9134615384615384,0.4,0.5,0,0.09,0.029375,[]
