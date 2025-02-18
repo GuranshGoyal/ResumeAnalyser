@@ -70,7 +70,7 @@ def extract_text_from_pdf_zip(zip_file, output_folder=None):
     # Open the zip file
     with zipfile.ZipFile(zip_file_path, "r") as zip_ref:
         # Get list of PDF files
-        pdf_files = [f for f in zip_ref.namelist() if f.lower().endswith(".pdf")]
+        pdf_files = [f for f in zip_ref.namelist() if f.lower().endswith(".pdf") and not f.startswith("__MACOSX/")]
         if not pdf_files:
             raise ValueError("No PDF files found in the zip archive.")
 
@@ -128,7 +128,6 @@ def extract_text_from_pdf_zip(zip_file, output_folder=None):
 def load_and_clean_data(directory):
     """Conversion of zip of pdfs to folder of extracted text files"""
     text_files_folder = extract_text_from_pdf_zip(directory)
-    print(text_files_folder)
     print("Now we have a folder of text files")
 
     """Load data from text files in the specified directory and perform initial cleaning."""
@@ -307,77 +306,6 @@ def calculate_overall_score(row):
     return technical_score * 0.4 + managerial_score * 0.3 + resume_quality_score * 0.3
 
 
-def process_resume_section2(row, job_skills):
-    """Process a single resume for Section 2 analysis."""
-    word_count, sentence_count = calculate_word_sentence_counts(row["Text"])
-
-    # Combine general and technical skills
-    all_skills = job_skills["general_skills"] + job_skills["technical_skills"]
-
-    # Extract skills based on the generated job description
-    job_specific_skills = extract_skills(row["Generated_Job_Description"], all_skills)
-    resume_skills = extract_skills(row["Text"], all_skills)
-
-    technical_score = calculate_technical_score(row, job_specific_skills)
-    managerial_score = calculate_managerial_score(row)
-    resume_quality_score = (
-        row["Spell_Check_Ratio"] + row["Section_Score"] + row["Brevity_Score"]
-    ) / 3
-    overall_score = calculate_overall_score(
-        technical_score, managerial_score, resume_quality_score
-    )
-
-    return {
-        "ID": row["ID"],
-        "Word_Count": word_count,
-        "Sentence_Count": sentence_count,
-        "Resume_Skills": resume_skills,
-        "Job_Specific_Skills": job_specific_skills,
-        "Technical_Score": technical_score,
-        "Managerial_Score": managerial_score,
-        "Resume_Quality_Score": resume_quality_score,
-        "Overall_Score": overall_score,
-    }
-
-
-def normalize_scores(df):
-    """Normalize scores to ensure fair comparison across all resumes."""
-    score_columns = [
-        "Technical_Score",
-        "Managerial_Score",
-        "Resume_Quality_Score",
-        "Overall_Score",
-    ]
-    for column in score_columns:
-        df[column] = (df[column] - df[column].min()) / (
-            df[column].max() - df[column].min()
-        )
-    return df
-
-
-def process_resumes_section2(df, job_skills):
-    """Process all resumes for Section 2 analysis."""
-    results = []
-    for _, row in df.iterrows():
-        results.append(process_resume_section2(row, job_skills))
-
-    results_df = pd.DataFrame(results)
-    normalized_df = normalize_scores(results_df)
-    return normalized_df
-
-
-# This function will be called from the main function in Section 3
-def run_section2(input_file, job_skills):
-    """Run Section 2 processing on the input file."""
-    df = pd.read_csv(input_file)
-    processed_df = process_resumes_section2(df, job_skills)
-    processed_df.to_csv("processed_resumes_section2.csv", index=False)
-    print(
-        "Section 2 processing completed. Results saved to 'processed_resumes_section2.csv'"
-    )
-    return processed_df
-
-
 def job_description_matching(resume_text: str, job_description: str) -> float:
     """Calculate similarity between resume and job description."""
     vectorizer = TfidfVectorizer(stop_words="english")
@@ -385,123 +313,12 @@ def job_description_matching(resume_text: str, job_description: str) -> float:
     return cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:2])[0][0]
 
 
-def adjust_scores_with_job_match(
-    df: pd.DataFrame, job_description: str
-) -> pd.DataFrame:
-    """Adjust scores based on job description matching."""
-    df["Job_Match_Score"] = df["Text"].apply(
-        lambda x: job_description_matching(x, job_description)
-    )
-    df["Adjusted_Overall_Score"] = (
-        df["Overall_Score"] * 0.7 + df["Job_Match_Score"] * 0.3
-    )
-    return df
-
-
-def rank_resumes(df: pd.DataFrame) -> pd.DataFrame:
-    """Rank resumes based on adjusted overall score."""
-    return df.sort_values("Adjusted_Overall_Score", ascending=False).reset_index(
-        drop=True
-    )
-
-
-
-def generate_report(df: pd.DataFrame, top_n: int = 10) -> Dict:
-    """Generate a report with top candidates and summary statistics."""
-    top_candidates = df.head(top_n)[
-        [
-            "ID",
-            "Adjusted_Overall_Score",
-            "Technical_Score",
-            "Managerial_Score",
-            "Job_Match_Score",
-        ]
-    ]
-    summary_stats = df[
-        [
-            "Adjusted_Overall_Score",
-            "Technical_Score",
-            "Managerial_Score",
-            "Job_Match_Score",
-        ]
-    ].describe()
-
-    return {
-        "top_candidates": top_candidates.to_dict(orient="records"),
-        "summary_stats": summary_stats.to_dict(),
-    }
-
-
 def match_resume_to_job_description(resume_text, job_description):
     """Match a resume to a specific job description and return adjusted scores."""
-    # Reuse the existing job_description_matching function
     match_score = job_description_matching(resume_text, job_description)
-
-    # # Recalculate scores based on the new job description
-    # job_specific_skills = extract_skills(job_description, general_job_skills)
-    # resume_skills = extract_skills(resume_text, job_specific_skills)
-
-    # technical_score = calculate_technical_score({'Text': resume_text, 'Years_of_Experience': extract_years_of_experience(resume_text), 'Education_Level': detect_education_level(resume_text)}, job_specific_skills)
-    # managerial_score = calculate_managerial_score({'Text': resume_text})
-    # resume_quality_score = (calculate_spell_check_ratio(resume_text) + identify_resume_sections(resume_text) + quantify_brevity(resume_text)) / 3
-    # overall_score = calculate_overall_score(technical_score, managerial_score, resume_quality_score)
-
-    # adjusted_overall_score = overall_score * 0.7 + match_score * 0.3
-
     return {
-        # 'Technical_Score': technical_score,
-        # 'Managerial_Score': managerial_score,
-        # 'Resume_Quality_Score': resume_quality_score,
-        # 'Overall_Score': overall_score,
         "Job_Match_Score": match_score,
-        # 'Adjusted_Overall_Score': adjusted_overall_score
     }
-
-
-
-def create_default_job_skills_file(file_path):
-    """Create a default job_skills.json file if it doesn't exist."""
-    default_skills = {
-        "general_skills": [
-            "communication",
-            "teamwork",
-            "leadership",
-            "problem-solving",
-            "time management",
-            "analytical skills",
-            "creativity",
-            "adaptability",
-        ],
-        "technical_skills": [
-            "programming",
-            "data analysis",
-            "project management",
-            "software development",
-            "database management",
-            "web development",
-            "Python",
-            "Java",
-            "Machine Learning",
-            "Deep Learning",
-            "NLP",
-            "SQL",
-            "C++",
-            "JavaScript",
-            "Data Science",
-            "TensorFlow",
-            "PyTorch",
-            "Linux",
-            "Docker",
-            "Kubernetes",
-            "Git",
-            "REST API",
-            "Flask",
-            "Django",
-        ],
-    }
-    with open(file_path, 'w') as file:
-        json.dump(default_skills, file, indent=2)
-
 
 def load_job_skills(file_path: str) -> List[str]:
     """Load general job skills from a JSON file or use a default list."""
@@ -637,25 +454,10 @@ def resumemain(resume_directory: str, job_description_path: str = None):    #res
     df = load_and_clean_data(
         resume_directory
     )  # zip containing pdf resumes -> folder with text form of resumes -> fit data into a dataframe
-    print("0")
-    print(df.iloc[0])
-    print(df.head())
-    print(df.columns)
     df["processed"] = df.apply(process_resume, axis=1)
-    print("1")
-    print(df.iloc[0])
-    print(df.head())
-    print(df.columns)
     df = pd.concat([df, pd.DataFrame(df["processed"].tolist())], axis=1)
-    print("2")
-    print(df.iloc[0])
-    print(df.head())
-    print(df.columns)
     df.drop("processed", axis=1, inplace=True)
-    print("3")
-    print(df.iloc[0])
-    print(df.head())
-    print(df.columns)
+
 
     # Calculate scores
     # Note: Don't drop the 'Text' even now as its required for some internal functions of the following functions
@@ -688,9 +490,6 @@ def resumemain(resume_directory: str, job_description_path: str = None):    #res
     # Rank resumes
     print("5. Ranking resumes...")
     ranked_df = df.sort_values("Final_Score", ascending=False).reset_index(drop=True)
-    print("4")
-    print(df.head())
-    print(df.columns)
 
     # Save final results
     print("6. Saving results...")
@@ -711,7 +510,7 @@ def resumemain(resume_directory: str, job_description_path: str = None):    #res
     ]
     ranked_df[final_columns].to_csv("final_ranked_resumes.csv", index=False)
 
-    print("7. Resume analysis complete. Results saved to 'final_ranked_resumes.csv'")
+    print("7. Resume analysis complete. Results saved to 'final_ranked_resumes.csv' !")
 
     return ranked_df[final_columns]
 
