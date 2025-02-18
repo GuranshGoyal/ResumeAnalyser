@@ -157,6 +157,34 @@ import base64
 
 st.title('Resume Ranking Application')
 
+st.markdown("""
+    <style>
+    .description-box {
+        width: 80%;
+        padding: 10px;
+        /* background-color: #24292e;  GitHub dark grey */
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        transition: all 0.3s ease-in-out;
+        color: #4CAF50; /* Green text */
+    }
+
+    .description-box:hover {
+        white-space: normal;
+        overflow: visible;
+    }
+    </style>
+
+    <div class="description-box">
+        Hi, Recruiters! 👋
+        <br>This app helps recruiters and hiring managers efficiently rank resumes based on their relevance to a job description. 
+        <br>Simply upload a ZIP file with multiple resumes, optionally add a job description file (In this case, evaluation will be done entirely based on pre-defined parameters), and let the app analyze and rank the resumes for you. 🚀    </div>
+""", unsafe_allow_html=True)
+
 with st.container():
     st.subheader("Upload Files")
 
