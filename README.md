@@ -70,7 +70,6 @@ Below is a sample layout of the project's folder structure:
 
     └── ResumeAnalyser/
         ├── README.md
-        ├── Job description.txt
         ├── model.py
         ├── app.py
         ├── output
@@ -83,7 +82,6 @@ Below is a sample layout of the project's folder structure:
 
 - **requirements.txt:** Lists all project dependencies.
 - **model.py:** Main logic for resume processing, scoring, and ranking.
-- **Job description.txt:** Sample job description used for testing job matching.
 - **app.py:** Streamlit application for interactive resume analysis.
 - **.streamlit:** Configuration for streamlit environment.
 - **output:** Placeholder for output stream
