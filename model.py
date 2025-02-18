@@ -9,7 +9,8 @@ import spacy
 import language_tool_python
 import datetime
 import json
-from typing import List, Dict
+import subprocess
+from typing import List
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from textblob import TextBlob
@@ -70,7 +71,11 @@ def extract_text_from_pdf_zip(zip_file, output_folder=None):
     # Open the zip file
     with zipfile.ZipFile(zip_file_path, "r") as zip_ref:
         # Get list of PDF files
-        pdf_files = [f for f in zip_ref.namelist() if f.lower().endswith(".pdf") and not f.startswith("__MACOSX/")]
+        pdf_files = [
+            f
+            for f in zip_ref.namelist()
+            if f.lower().endswith(".pdf") and not f.startswith("__MACOSX/")
+        ]
         if not pdf_files:
             raise ValueError("No PDF files found in the zip archive.")
 
@@ -321,6 +326,7 @@ def match_resume_to_job_description(resume_text, job_description):
         "Job_Match_Score": match_score,
     }
 
+
 def load_job_skills(file_path: str) -> List[str]:
     """Load general job skills from a JSON file or use a default list."""
     default_skills = [
@@ -385,7 +391,7 @@ def load_job_skills(file_path: str) -> List[str]:
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    os.system("python -m spacy download en_core_web_sm")
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
     nlp = spacy.load("en_core_web_sm")
 
 
@@ -441,12 +447,12 @@ def process_resume(row):
     }
 
 
-def resumemain(resume_directory: str, job_description_path: str = None):    #resume_directory is a zip file containing resumes in pdf format
+def resumemain(
+    resume_directory: str, job_description_path: str = None
+):  # resume_directory is a zip file containing resumes in pdf format
     # Adjust pandas display settings to show the full row (for debugging)
     pd.set_option("display.max_columns", None)  # Show all columns
-    pd.set_option(
-        "display.width", None
-    )  # Remove line width limit'
+    pd.set_option("display.width", None)  # Remove line width limit'
     print("1. Starting resume analysis process...")
 
     print(resume_directory)
@@ -463,7 +469,6 @@ def resumemain(resume_directory: str, job_description_path: str = None):    #res
     df["processed"] = df.apply(process_resume, axis=1)
     df = pd.concat([df, pd.DataFrame(df["processed"].tolist())], axis=1)
     df.drop("processed", axis=1, inplace=True)
-
 
     # Calculate scores
     # Note: Don't drop the 'Text' even now as its required for some internal functions of the following functions
@@ -520,8 +525,9 @@ def resumemain(resume_directory: str, job_description_path: str = None):    #res
 
     return ranked_df[final_columns]
 
+
 def main():
-    resume_directory = os.path.join(os.getcwd(), 'extracted_text_files')
+    resume_directory = os.path.join(os.getcwd(), "extracted_text_files")
     resumemain(resume_directory)
 
 
