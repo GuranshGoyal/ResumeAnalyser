@@ -1,12 +1,6 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
 
 import pymupdf
-
-# import pathlib
 import zipfile
 import os
 import re
@@ -16,29 +10,12 @@ import language_tool_python
 import datetime
 import json
 from typing import List, Dict
-
-# In[3]:
-
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from textblob import TextBlob
 import tempfile
 from PyPDF2 import PdfReader
 from io import BytesIO
-
-# In[4]:
-
-
-# fileName=input()
-
-# with pymupdf.open(fileName) as doc:
-#     text=chr(12).join([page.get_text() for page in doc])
-
-# pathlib.Path(fileName+".txt").write_bytes(text.encode())
-
-
-# In[5]:
 
 
 def extract_text_from_pdf(pdf_path):
@@ -48,45 +25,6 @@ def extract_text_from_pdf(pdf_path):
             page = pdf[page_num]
             text += page.get_text()
         return text
-
-
-# In[6]:
-
-
-# # Function to extract PDFs from zipfile, convert them to text, and save as .txt files
-# def extract_and_save_text_from_zip(zip_file_path, extract_to, output_zip_path):
-#     with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-#         zip_ref.extractall(extract_to)
-
-#     # Create a new zip file to store the .txt files
-#     with zipfile.ZipFile(output_zip_path, 'w') as output_zip:
-#         for root, dirs, files in os.walk(extract_to):
-#             for file in files:
-#                 if file.endswith(".pdf"):
-#                     pdf_path = os.path.join(root, file)
-#                     text = extract_text_from_pdf(pdf_path)
-
-#                     # Save the extracted text as a .txt file
-#                     text_filename = os.path.splitext(file)[0] + ".txt"
-#                     text_filepath = os.path.join(extract_to, text_filename)
-#                     with open(text_filepath, 'w', encoding='utf-8') as text_file:
-#                         text_file.write(text)
-
-#                     # Add the text file to the output zip
-#                     output_zip.write(text_filepath, arcname=text_filename)
-
-# # Example usage
-# zip_file_path = "Final_Resumes.zip"  # Path to your input zipfile containing PDFs
-# extract_to = "Final_Resumes_Text"  # Temporary directory to extract PDFs
-# output_zip_path = "extracted_text_files.zip"  # Path to the output zipfile with text files
-
-# # Extract text and create a zip of .txt files
-# extract_and_save_text_from_zip(zip_file_path, extract_to, output_zip_path)
-
-# print(f"Text files saved and zipped as {output_zip_path}")
-
-
-# In[ ]:
 
 
 def extract_text_from_pdf_zip(zip_file, output_folder=None):
@@ -187,9 +125,6 @@ def extract_text_from_pdf_zip(zip_file, output_folder=None):
     return output_folder
 
 
-# In[ ]:
-
-
 def load_and_clean_data(directory):
     """Conversion of zip of pdfs to folder of extracted text files"""
     text_files_folder = extract_text_from_pdf_zip(directory)
@@ -210,9 +145,6 @@ def load_and_clean_data(directory):
     return pd.DataFrame(data)
 
 
-# In[8]:
-
-
 def preprocess_text(text):
     """Preprocess text using spaCy for tokenization and lemmatization."""
     doc = nlp(text)
@@ -222,9 +154,6 @@ def preprocess_text(text):
         if not token.is_stop and not token.is_punct
     ]
     return tokens
-
-
-# In[9]:
 
 
 def extract_years_of_experience(text):
@@ -238,9 +167,6 @@ def extract_years_of_experience(text):
             latest_year = current_year
         return latest_year - earliest_year
     return 0
-
-
-# In[10]:
 
 
 def detect_education_level(text):
@@ -259,17 +185,11 @@ def detect_education_level(text):
     return "Other"
 
 
-# In[11]:
-
-
 def calculate_spell_check_ratio(text):
     """Calculate the ratio of potential spelling errors to total words."""
     matches = language_tool_python.LanguageToolPublicAPI("en-US").check(text)
     total_words = len(text.split())
     return 1 - (len(matches) / total_words)
-
-
-# In[12]:
 
 
 def identify_resume_sections(text):
@@ -300,9 +220,6 @@ def identify_resume_sections(text):
     return min(section_score / len(important_sections), 1)
 
 
-# In[13]:
-
-
 def quantify_brevity(text):
     """Quantify the brevity of the resume."""
     word_count = len(text.split())
@@ -314,49 +231,12 @@ def quantify_brevity(text):
         return 1 - (abs(600 - word_count) / 400)  # Optimal around 600 words
 
 
-# In[14]:
-
-
-# def process_resume(row):
-#     """Process a single resume and return a dictionary of features."""
-#     text = row['Text']
-#     tokens = preprocess_text(text)
-
-#     years_of_experience = extract_years_of_experience(text)
-#     education_level = detect_education_level(text)
-#     spell_check_ratio = calculate_spell_check_ratio(text)
-#     section_score = identify_resume_sections(text)
-#     brevity_score = quantify_brevity(text)
-#     extracted_skills=extract_skills(text)
-
-#     # Generate job description based on the resume
-#     job_description = generate_job_description(text)
-
-#     return {
-#         'ID': row['ID'],
-#         'Preprocessed_Tokens': tokens,
-#         'Years_of_Experience': years_of_experience,
-#         'Education_Level': education_level,
-#         'Spell_Check_Ratio': spell_check_ratio,
-#         'Section_Score': section_score,
-#         'Brevity_Score': brevity_score,
-#         'Extracted_skills':extracted_skills
-#         'Generated_Job_Description': job_description
-#     }
-
-
-# In[15]:
-
-
 def calculate_word_sentence_counts(text):
     """Calculate word count and sentence count."""
     sentences = re.split(r"[.!?]+", text)
     word_count = len(text.split())
     sentence_count = len([s for s in sentences if s.strip()])
     return word_count, sentence_count
-
-
-# In[17]:
 
 
 def calculate_skill_match_score(resume_skills, job_skills):
@@ -367,16 +247,10 @@ def calculate_skill_match_score(resume_skills, job_skills):
     return len(matched_skills) / len(job_skills)
 
 
-# In[18]:
-
-
 def analyze_sentiment(text):
     """Analyze the sentiment of achievement statements in the resume."""
     blob = TextBlob(text)
     return blob.sentiment.polarity
-
-
-# In[19]:
 
 
 def quantify_achievement_impact(text):
@@ -397,9 +271,6 @@ def quantify_achievement_impact(text):
     return min(impact_score, 1)
 
 
-# In[20]:
-
-
 def calculate_technical_score(row):
     """Calculate the technical CV score."""
     skill_count = len(row["Extracted_Skills"])
@@ -415,9 +286,6 @@ def calculate_technical_score(row):
     return skill_count / 10 * 0.4 + experience_score * 0.3 + education_score * 0.3
 
 
-# In[21]:
-
-
 def calculate_managerial_score(row):
     """Calculate the managerial CV score."""
     soft_skills_score = analyze_sentiment(row["Text"])
@@ -429,9 +297,6 @@ def calculate_managerial_score(row):
     return soft_skills_score * 0.3 + achievement_impact * 0.4 + leadership_score * 0.3
 
 
-# In[22]:
-
-
 def calculate_overall_score(row):
     """Calculate the overall CV score."""
     technical_score = row["Technical_Score"]
@@ -440,9 +305,6 @@ def calculate_overall_score(row):
         row["Spell_Check_Ratio"] + row["Section_Score"] + row["Brevity_Score"]
     ) / 3
     return technical_score * 0.4 + managerial_score * 0.3 + resume_quality_score * 0.3
-
-
-# In[23]:
 
 
 def process_resume_section2(row, job_skills):
@@ -478,9 +340,6 @@ def process_resume_section2(row, job_skills):
     }
 
 
-# In[24]:
-
-
 def normalize_scores(df):
     """Normalize scores to ensure fair comparison across all resumes."""
     score_columns = [
@@ -496,9 +355,6 @@ def normalize_scores(df):
     return df
 
 
-# In[25]:
-
-
 def process_resumes_section2(df, job_skills):
     """Process all resumes for Section 2 analysis."""
     results = []
@@ -508,9 +364,6 @@ def process_resumes_section2(df, job_skills):
     results_df = pd.DataFrame(results)
     normalized_df = normalize_scores(results_df)
     return normalized_df
-
-
-# In[26]:
 
 
 # This function will be called from the main function in Section 3
@@ -525,29 +378,11 @@ def run_section2(input_file, job_skills):
     return processed_df
 
 
-# In[ ]:
-
-
-# In[28]:
-
-
-# def load_job_skills(file_path: str) -> List[str]:
-#     """Load job skills from a JSON file."""
-#     with open(file_path, "r") as file:
-#         return json.load(file)
-
-
-# In[29]:
-
-
 def job_description_matching(resume_text: str, job_description: str) -> float:
     """Calculate similarity between resume and job description."""
     vectorizer = TfidfVectorizer(stop_words="english")
     tfidf_matrix = vectorizer.fit_transform([resume_text, job_description])
     return cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:2])[0][0]
-
-
-# In[30]:
 
 
 def adjust_scores_with_job_match(
@@ -563,17 +398,12 @@ def adjust_scores_with_job_match(
     return df
 
 
-# In[31]:
-
-
 def rank_resumes(df: pd.DataFrame) -> pd.DataFrame:
     """Rank resumes based on adjusted overall score."""
     return df.sort_values("Adjusted_Overall_Score", ascending=False).reset_index(
         drop=True
     )
 
-
-# In[32]:
 
 
 def generate_report(df: pd.DataFrame, top_n: int = 10) -> Dict:
@@ -602,9 +432,6 @@ def generate_report(df: pd.DataFrame, top_n: int = 10) -> Dict:
     }
 
 
-# In[33]:
-
-
 def match_resume_to_job_description(resume_text, job_description):
     """Match a resume to a specific job description and return adjusted scores."""
     # Reuse the existing job_description_matching function
@@ -630,8 +457,6 @@ def match_resume_to_job_description(resume_text, job_description):
         # 'Adjusted_Overall_Score': adjusted_overall_score
     }
 
-
-# In[34]:
 
 
 def create_default_job_skills_file(file_path):
@@ -674,15 +499,8 @@ def create_default_job_skills_file(file_path):
             "Django",
         ],
     }
-
-    with open(file_path, "w") as file:
+    with open(file_path, 'w') as file:
         json.dump(default_skills, file, indent=2)
-
-
-# In[35]:
-
-
-# In[36]:
 
 
 def load_job_skills(file_path: str) -> List[str]:
@@ -780,9 +598,6 @@ def extract_skills(text: str) -> List[str]:
     return sorted_keyword_skills + sorted_ner_skills  # Keywords first, NER second
 
 
-# In[38]:
-
-
 def process_resume(row):
     """Process a single resume and return a dictionary of features."""
     text = row["Text"]
@@ -804,12 +619,7 @@ def process_resume(row):
     }
 
 
-# In[44]:
-
-
-def resumemain(
-    resume_directory: str, job_description_path: str = None
-):  # resume_directory is a zip file containing resumes in pdf format
+def resumemain(resume_directory: str, job_description_path: str = None):    #resume_directory is a zip file containing resumes in pdf format
     # Adjust pandas display settings to show the full row (for debugging)
     pd.set_option("display.max_columns", None)  # Show all columns
     pd.set_option(
@@ -905,21 +715,10 @@ def resumemain(
 
     return ranked_df[final_columns]
 
-
-# In[45]:
-
-
 def main():
-    # resume_directory = '/workspaces/ResumeAnalyser/extracted_text_files'
-    resume_directory = os.path.join(os.getcwd(), "extracted_text_files")
+    resume_directory = os.path.join(os.getcwd(), 'extracted_text_files')
     resumemain(resume_directory)
 
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-# !pip install tqdm
