@@ -243,13 +243,15 @@ def extract_years_of_experience(text):
 # In[10]:
 
 
+
 def detect_education_level(text):
     """Detect the highest education level mentioned in the resume."""
     education_patterns = {
         'PhD': r'\bPh\.?D\.?\b|\bDoctor(ate)?\b',
-        'Master': r'\bM\.?S\.?\b|\bM\.?A\.?\b|\bMaster(s)?\b',
-        'Bachelor': r'\bB\.?S\.?\b|\bB\.?A\.?\b|\bBachelor(s)?\b',
-        'Associate': r'\bA\.?S\.?\b|\bA\.?A\.?\b|\bAssociate\b'
+        # 'Master': r'\bM\.?S\.?\b|\bM\.?A\.?\b|\bM\.?Tech\b|\bMaster(s)?\b',
+        'Postgraduate': r'\bM\.?S\.?\b|\bM\.?A\.?\b|\bM\.?Tech\b|\bM\.?Sc\b|\bMaster(s)?\b|\bPost\s?Graduation\b|\bPostgraduate\b',
+        'Bachelor': r'\bB\.?S\.?\b|\bB\.?A\.?\b|\bB\.?Tech\b|\bB\.?Sc\b|\bBachelor(s)?\b'
+        # 'Associate': r'\bA\.?S\.?\b|\bA\.?A\.?\b|\bAssociate\b'
     }
 
     for level, pattern in education_patterns.items():
@@ -384,7 +386,7 @@ def analyze_sentiment(text):
 def quantify_achievement_impact(text):
     """Quantify the impact of achievements."""
     impact_score = 0
-    achievements = re.findall(r'\b(increased|decreased|improved|reduced|saved|generated).*?(\d+(?:\.\d+)?%?)', text, re.IGNORECASE)
+    achievements = re.findall(r'\b(increased|decreased|improved|reduced|saved|generated|expanded).*?(\d+(?:\.\d+)?%?)', text, re.IGNORECASE)
     for _, value in achievements:
         if '%' in value:
             impact_score += float(value.strip('%')) / 100
@@ -574,24 +576,24 @@ def match_resume_to_job_description(resume_text, job_description):
     # Reuse the existing job_description_matching function
     match_score = job_description_matching(resume_text, job_description)
 
-    # Recalculate scores based on the new job description
-    job_specific_skills = extract_skills(job_description, general_job_skills)
-    resume_skills = extract_skills(resume_text, job_specific_skills)
+    # # Recalculate scores based on the new job description
+    # job_specific_skills = extract_skills(job_description, general_job_skills)
+    # resume_skills = extract_skills(resume_text, job_specific_skills)
 
-    technical_score = calculate_technical_score({'Text': resume_text, 'Years_of_Experience': extract_years_of_experience(resume_text), 'Education_Level': detect_education_level(resume_text)}, job_specific_skills)
-    managerial_score = calculate_managerial_score({'Text': resume_text})
-    resume_quality_score = (calculate_spell_check_ratio(resume_text) + identify_resume_sections(resume_text) + quantify_brevity(resume_text)) / 3
-    overall_score = calculate_overall_score(technical_score, managerial_score, resume_quality_score)
+    # technical_score = calculate_technical_score({'Text': resume_text, 'Years_of_Experience': extract_years_of_experience(resume_text), 'Education_Level': detect_education_level(resume_text)}, job_specific_skills)
+    # managerial_score = calculate_managerial_score({'Text': resume_text})
+    # resume_quality_score = (calculate_spell_check_ratio(resume_text) + identify_resume_sections(resume_text) + quantify_brevity(resume_text)) / 3
+    # overall_score = calculate_overall_score(technical_score, managerial_score, resume_quality_score)
 
-    adjusted_overall_score = overall_score * 0.7 + match_score * 0.3
+    # adjusted_overall_score = overall_score * 0.7 + match_score * 0.3
 
     return {
-        'Technical_Score': technical_score,
-        'Managerial_Score': managerial_score,
-        'Resume_Quality_Score': resume_quality_score,
-        'Overall_Score': overall_score,
+        # 'Technical_Score': technical_score,
+        # 'Managerial_Score': managerial_score,
+        # 'Resume_Quality_Score': resume_quality_score,
+        # 'Overall_Score': overall_score,
         'Job_Match_Score': match_score,
-        'Adjusted_Overall_Score': adjusted_overall_score
+        # 'Adjusted_Overall_Score': adjusted_overall_score
     }
 
 
@@ -603,22 +605,14 @@ def create_default_job_skills_file(file_path):
     default_skills = {
         "general_skills": [
             "communication", "teamwork", "leadership", "problem-solving",
-            "time management", "analytical skills", "creativity", "adaptability",
+            "time management", "analytical skills", "creativity", "adaptability"
+        ],
+        "technical_skills": [
             "programming", "data analysis", "project management",
             "software development", "database management", "web development", 
             "Python", "Java", "Machine Learning", "Deep Learning", "NLP", "SQL",
             "C++", "JavaScript", "Data Science", "TensorFlow", "PyTorch",
             "Linux", "Docker", "Kubernetes", "Git", "REST API", "Flask", "Django"
-
-        ],
-        "technical_skills": [
-            "hi"
-            # "programming", "data analysis", "project management",
-            # "software development", "database management", "web development", 
-            # "Python", "Java", "Machine Learning", "Deep Learning", "NLP", "SQL",
-            # "C++", "JavaScript", "Data Science", "TensorFlow", "PyTorch",
-            # "Linux", "Docker", "Kubernetes", "Git", "REST API", "Flask", "Django"
-
         ]
     }
 
@@ -643,10 +637,12 @@ def load_job_skills(file_path: str) -> List[str]:
     default_skills = [
         "communication", "teamwork", "leadership", "problem-solving",
         "time management", "analytical skills", "creativity", "adaptability",
-        "organization", "attention to detail", "customer service",
-        "critical thinking", "decision making", "interpersonal skills",
-        "multitasking", "flexibility", "initiative", "reliability",
-        "professionalism", "continuous learning"
+        "programming", "data analysis", "project management",
+        "software development", "database management", "web development", 
+        "Python", "Java", "Machine Learning", "Deep Learning", "NLP", "SQL",
+        "C++", "JavaScript", "Data Science", "TensorFlow", "PyTorch",
+        "Linux", "Docker", "Kubernetes", "Git", "REST API", "Flask", "Django",
+        "BERT", "Transformers", "Siamese", "Neural Networks"
     ]
 
     try:
@@ -670,17 +666,6 @@ def load_job_skills(file_path: str) -> List[str]:
 
 # In[37]:
 
-
-# def extract_skills(text: str) -> List[str]:
-#     """Extract skills from text using NLP techniques."""
-#     # This is a placeholder function. In a real implementation, we would use
-#     # more sophisticated NLP techniques to extract skills from the text.
-#     # For now, we'll use a simple keyword matching approach.
-#     extracted_skills = []
-#     for skill in general_skills:
-#         if skill.lower() in text.lower():
-#             extracted_skills.append(skill)
-#     return extracted_skills
 import spacy
 from typing import List
 
@@ -693,20 +678,25 @@ def extract_skills(text: str) -> List[str]:
         return []
 
     doc = nlp(text)
-    extracted_skills = set()
+    keyword_skills = set()
+    ner_skills = set()
 
     # Match skills using keyword search
     for skill in general_skills:
         if skill.lower() in text.lower():
-            extracted_skills.add(skill)
+            keyword_skills.add(skill)
 
     # Extract potential skills using Named Entity Recognition (NER)
     for ent in doc.ents:
         if ent.label_ in {"ORG", "PRODUCT", "WORK_OF_ART"}:  # Some skills appear as products/orgs
-            extracted_skills.add(ent.text)
+            ner_skills.add(ent.text)
 
-    return sorted(extracted_skills)  # Return sorted list for consistency
+    # Sort each group separately
+    sorted_keyword_skills = sorted(keyword_skills)
+    sorted_ner_skills = sorted(ner_skills)
 
+    # Maintain their order separately but combine them in the final output
+    return sorted_keyword_skills + sorted_ner_skills  # Keywords first, NER second
 
 
 # In[38]:
@@ -733,17 +723,11 @@ def process_resume(row):
     }
 
 
-# In[ ]:
-
-
-
-
-
 # In[44]:
 
 
-def resumemain(resume_directory: str):    #resume_directory is a zip file containing resumes in pdf format
-    # Adjust pandas display settings to show the full row
+def resumemain(resume_directory: str, job_description_path: str = None):    #resume_directory is a zip file containing resumes in pdf format
+    # Adjust pandas display settings to show the full row (for debugging)
     pd.set_option('display.max_columns', None)  # Show all columns
     pd.set_option('display.width', None)  # Remove line width limit'print("1. Starting resume analysis process...")
     
@@ -755,7 +739,7 @@ def resumemain(resume_directory: str):    #resume_directory is a zip file contai
 
     # Load and preprocess data
     print("3. Loading and preprocessing resumes...")
-    df = load_and_clean_data(resume_directory)  #zip conatining pdf resumes -> folder with text form of resumes -> fir data into a dataframe
+    df = load_and_clean_data(resume_directory)  #zip containing pdf resumes -> folder with text form of resumes -> fit data into a dataframe
     print('0')
     print(df.iloc[0])
     print(df.head())
@@ -777,15 +761,26 @@ def resumemain(resume_directory: str):    #resume_directory is a zip file contai
     print(df.columns)
 
     # Calculate scores
+     #Note: Don't drop the 'Text' even now as its required for some internal functions of the following functions
     print("4. Calculating scores...")
     df['Skill_Count'] = df['Extracted_Skills'].apply(len)
     df['Technical_Score'] = df.apply(calculate_technical_score, axis=1)
     df['Managerial_Score'] = df.apply(calculate_managerial_score, axis=1)
-    df['Overall_Score'] = df.apply(calculate_overall_score, axis=1)
+    df['Overall(featured)_Score'] = df.apply(calculate_overall_score, axis=1) # this column can be added at last only (because its internal functions need the above created columns)
 
+    if job_description_path:
+        with open(job_description_path, 'r', encoding='utf-8') as f:
+            job_description = f.read()
+    else:
+        job_description = None  # Indicates no job description provided
+
+    df['TF-IDF_Score'] = df.apply(lambda row: match_resume_to_job_description(row['Text'], job_description).get("Job_Match_Score", 1.0) 
+                                 if job_description else 1.0, axis=1)
+
+    df['Final_Score'] = df['Overall(featured)_Score'] * 0.7 + df['TF-IDF_Score'] * 0.3
     # Rank resumes
     print("5. Ranking resumes...")
-    ranked_df = df.sort_values('Overall_Score', ascending=False).reset_index(drop=True)
+    ranked_df = df.sort_values('Final_Score', ascending=False).reset_index(drop=True)
     print('4')
     print(df.head())
     print(df.columns)
@@ -793,9 +788,11 @@ def resumemain(resume_directory: str):    #resume_directory is a zip file contai
     # Save final results
     print("6. Saving results...")
     final_columns = [
-        'ID', 'Overall_Score', 'Years_of_Experience', 'Education_Level', 'Spell_Check_Ratio',
-        'Section_Score', 'Brevity_Score', 'Skill_Count',
-        'Technical_Score', 'Managerial_Score', 'Extracted_Skills'
+        'ID', 'Final_Score', 'Overall(featured)_Score', 'TF-IDF_Score', 
+        'Years_of_Experience', 'Education_Level', 
+        'Technical_Score', 'Managerial_Score', 
+        'Spell_Check_Ratio', 'Section_Score', 'Brevity_Score', 
+        'Skill_Count', 'Extracted_Skills'
     ]
     ranked_df[final_columns].to_csv('final_ranked_resumes.csv', index=False)
 
