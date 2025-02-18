@@ -382,7 +382,11 @@ def load_job_skills(file_path: str) -> List[str]:
 
 
 # Load spaCy NLP model
-nlp = spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    os.system("python -m spacy download en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 
 def extract_skills(text: str) -> List[str]:
