@@ -272,7 +272,8 @@ def quantify_achievement_impact(text):
 
 def calculate_technical_score(row):
     """Calculate the technical CV score."""
-    skill_count = len(row["Extracted_Skills"])
+    # skill_count = len(row["Extracted_Skills"])
+    skill_count = min(len(row["Extracted_Skills"]), 10)  # Cap at 10 skills
     experience_score = min(row["Years_of_Experience"] / 10, 1)  # Cap at 10 years
     education_score = {
         "PhD": 1,
@@ -499,13 +500,13 @@ def resumemain(resume_directory: str, job_description_path: str = None):    #res
         "Final_Score",
         "Overall(featured)_Score",
         "TF-IDF_Score",
-        "Years_of_Experience",
         "Education_Level",
         "Technical_Score",
         "Managerial_Score",
         "Spell_Check_Ratio",
         "Section_Score",
         "Brevity_Score",
+        "Years_of_Experience",
         "Skill_Count",
         "Extracted_Skills",
     ]
