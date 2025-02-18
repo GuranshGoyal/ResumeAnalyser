@@ -441,7 +441,8 @@ def resumemain(resume_directory: str, job_description_path: str = None):    #res
     pd.set_option("display.max_columns", None)  # Show all columns
     pd.set_option(
         "display.width", None
-    )  # Remove line width limit'print("1. Starting resume analysis process...")
+    )  # Remove line width limit'
+    print("1. Starting resume analysis process...")
 
     print(resume_directory)
     # Load general skills
