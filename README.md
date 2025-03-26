@@ -169,6 +169,17 @@ This will start a local Streamlit server where you can:
 
 ---
 
+## Problems Encountered and their Solutions
+
+- Identifying appropriate parameters for resume ranking and assigning meaningful weightage to different sections
+	> Conducted thorough research on industry standards and consulted domain experts to determine relevant parameters such as skills, experience, and education
+- Integrating the frontend, particularly handling the import of archive files
+  	> Utilized Python's zipfile module to extract and parse multiple resumes from archive files (ZIP format) and ensured seamless data transfer between the frontend and backend
+- Handling inconsistencies in resume structures and maintaining uniform data processing
+	> Implemented a robust text processing pipeline that included tokenization, lemmatization, and stopword removal to clean and standardize extracted text. Utilized libraries like nltk and spaCy to ensure uniform processing across different resume formats.
+
+---
+
 ## License
 
 This project is protected under the [MIT](https://choosealicense.com/licenses/mit/#) License. For more details, please refer to the [LICENSE](https://choosealicense.com/licenses/) site.
