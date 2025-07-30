@@ -191,7 +191,9 @@ def detect_education_level(text):
 
 def calculate_spell_check_ratio(text):
     """Calculate the ratio of potential spelling errors to total words."""
-    matches = language_tool_python.LanguageToolPublicAPI("en-US").check(text)
+    # matches = language_tool_python.LanguageToolPublicAPI("en-US").check(text)
+    tool = language_tool_python.LanguageTool('en-US')
+    matches = tool.check(text)
     total_words = len(text.split())
     return 1 - (len(matches) / total_words)
 
@@ -432,7 +434,14 @@ def process_resume(row):
 
     years_of_experience = extract_years_of_experience(text)
     education_level = detect_education_level(text)
+
     spell_check_ratio = calculate_spell_check_ratio(text)
+    # try:
+    #     spell_check_ratio = calculate_spell_check_ratio(text)
+    # except Exception as e:
+    #     print(f"Spell check error for resume: {e}")
+    #     spell_check_ratio = 0  # or np.nan or "ERROR"
+
     section_score = identify_resume_sections(text)
     brevity_score = quantify_brevity(text)
     extracted_skills = extract_skills(text)
