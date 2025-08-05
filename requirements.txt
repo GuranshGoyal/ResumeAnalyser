@@ -1,11 +1,11 @@
 pymupdf
 pathlib
-pandas
+pandas==2.3.1
 spacy
 language_tool_python
 datetime
 numpy==2.3.2
-scikit-learn
+scikit-learn==1.7.1
 textblob
 pyPDF2 # newly added library for conversion of zip of pdfs to folder of extracted text files
 streamlit
