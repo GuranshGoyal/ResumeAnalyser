@@ -10,3 +10,5 @@ textblob
 pyPDF2 # newly added library for conversion of zip of pdfs to folder of extracted text files
 streamlit
 jupyter 
+python -m spacy download en_core_web_sm
+
